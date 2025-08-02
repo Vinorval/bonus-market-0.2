@@ -1,6 +1,21 @@
+@import url(./blocks/navigation-block/navigation-block.css);
+@import url(./blocks/navigation/__list/navigation__list.css);
+
+@import url(./blocks/block-call-back/block-call-back.css);
+@import url(./blocks/block-call-back/__number/block-call-back__number.css);
+@import url(./blocks/block-call-back/__button/block-call-back__button.css);
+
+@import url(./blocks/padding/_none/padding_none.css);
+@import url(./blocks/padding/_limit/padding_limit_width.css);
+
+@import url(./blocks/margin/_none/margin_none.css);
+
+@import url(./blocks/background/_color/background_color_gray.css);
+@import url(./blocks/background/_none/background_none.css);
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
