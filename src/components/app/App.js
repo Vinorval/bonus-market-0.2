@@ -1,10 +1,12 @@
 import Navigation from "../navigation/Navigation";
+import Header from "../header/Header";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Navigation />
+        <Header />
         <img  className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
