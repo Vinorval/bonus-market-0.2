@@ -1,9 +1,9 @@
-
+import Logo from "../logo/Logo";
 
 const Header = () => {
     return (
     <header>
-        <img alt="logo" />
+        <Logo />
         <button>Каталог</button>
         <form>
             <img />
