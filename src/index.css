@@ -1,6 +1,14 @@
 @import url(./blocks/navigation-block/navigation-block.css);
 @import url(./blocks/navigation/__list/navigation__list.css);
 
+@import url(./blocks/header/header.css);
+@import url(./blocks/header-links/header-links.css);
+@import url(./blocks/header-link/header-link.css);
+@import url(./blocks/header-link/__name/header-link__name.css);
+
+@import url(./blocks/search-form/search-form.css);
+@import url(./blocks/search-form/__input/search-form__input.css);
+
 @import url(./blocks/block-call-back/block-call-back.css);
 @import url(./blocks/block-call-back/__number/block-call-back__number.css);
 @import url(./blocks/block-call-back/__button/block-call-back__button.css);
@@ -11,10 +19,16 @@
 @import url(./blocks/margin/_none/margin_none.css);
 
 @import url(./blocks/background/_color/background_color_gray.css);
+@import url(./blocks/background/_color/background_color_blue.css);
 @import url(./blocks/background/_none/background_none.css);
 
+@import url(./blocks/button/button.css);
+@import url(./blocks/button/_color/button_color_yellow.css);
+@import url(./blocks/button/_width/button_width_narrow.css);
+
 body {
-  margin: 0;
+  max-width: 2080px;
+  margin: 0 auto 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

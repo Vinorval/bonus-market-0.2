@@ -1,0 +1,7 @@
+.header-link {
+    list-style-type: none;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    max-width: 100px;
+}
