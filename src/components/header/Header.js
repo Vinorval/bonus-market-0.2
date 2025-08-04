@@ -3,7 +3,7 @@ import Logo from "../logo/Logo";
 import LoupeIcon from "../../images/form-icons/loupe.svg";
 import ComparisonIcon from "../../images/page-icons/chart.svg";
 import FavouritesIcon from "../../images/page-icons/like.svg";
-import BusketIcon from "../../images/page-icons/cart.svg"
+import BusketIcon from "../../images/page-icons/cart.svg";
 
 const Header = () => {
     return (
