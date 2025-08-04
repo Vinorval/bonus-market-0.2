@@ -1,0 +1,5 @@
+.navigation__list_position_footer {
+    flex-direction: column;
+    gap: 7px;
+    padding-top: 10px;
+}

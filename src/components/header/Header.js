@@ -9,11 +9,11 @@ const Header = () => {
     return (
     <header className="header padding_limit_width background_color_blue">
         <Logo />
-        <button className="button button_color_yellow button_width_narrow margin_none padding_none">Каталог</button>
         <form className="search-form">
             <img alt="иконка лупы" src={LoupeIcon} className="search-form__icon" />
             <input className="search-form__input background_none margin_none padding_none" type="text" placeholder="Поиск по каталогу" />
         </form>
+        <button className="button button_color_yellow button_width_narrow margin_none padding_none">Каталог</button>
         <ul className="header-links margin_none padding_none">
             <li className="header-link">
                 <img className="header-link__icon" alt="иконка страницы сравнения товаров" src={ComparisonIcon} />

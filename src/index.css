@@ -1,10 +1,15 @@
 @import url(./blocks/navigation-block/navigation-block.css);
 @import url(./blocks/navigation/__list/navigation__list.css);
+@import url(./blocks/navigation/__list/_position/novigation__list_position_footer.css);
 
 @import url(./blocks/header/header.css);
 @import url(./blocks/header-links/header-links.css);
 @import url(./blocks/header-link/header-link.css);
 @import url(./blocks/header-link/__name/header-link__name.css);
+
+@import url(./blocks/logo/logo.css);
+
+@import url(./blocks/contacts/contacts.css);
 
 @import url(./blocks/search-form/search-form.css);
 @import url(./blocks/search-form/__input/search-form__input.css);
@@ -12,6 +17,18 @@
 @import url(./blocks/block-call-back/block-call-back.css);
 @import url(./blocks/block-call-back/__number/block-call-back__number.css);
 @import url(./blocks/block-call-back/__button/block-call-back__button.css);
+@import url(./blocks/block-call-back/_position/block-call-back__position_footer.css);
+@import url(./blocks/block-call-back/__button/_position/block-call-back__button_position_footer.css);
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__title/footer__title.css);
+@import url(./blocks/mailing-form/mailing-form.css);
+@import url(./blocks/mailing-form/__input/mailing-form__input.css);
+@import url(./blocks/mailing-form/__button/mailing-form__button.css);
+
+@import url(./blocks/payment-mathods/__list/payment-methods__list.css);
+@import url(./blocks/socials/__title/socials__title.css);
+@import url(./blocks/socials/__list/socials__list.css);
 
 @import url(./blocks/padding/_none/padding_none.css);
 @import url(./blocks/padding/_limit/padding_limit_width.css);

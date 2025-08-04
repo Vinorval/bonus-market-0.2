@@ -11,17 +11,17 @@ const Footer = () => {
             <Logo />
             <div className="contacts" >
                 <Socials />
-                <BlockCallBack />
-                <p className="contacts__email">guli.iva@yandex.ru</p>
+                <BlockCallBack position='footer' />
+                <p className="contacts__email margin_none">guli.iva@yandex.ru</p>
             </div>
             <nav className="navigation" >
-                <h4 className="navigation__title" >О нас:</h4>
+                <h4 className="navigation__title footer__title margin_none">О нас:</h4>
                 <ul className="navigation__list navigation__list_position_footer margin_none padding_none" >
                     {navigationLinks.map((el) => (<li className="navigation__link" >{el.name}</li>))}
                 </ul>
             </nav>
             <div className="payment-methods">
-                <h4 className="payment-methods__title">Способы оплаты:</h4>
+                <h4 className="payment-methods__title footer__title margin_none">Способы оплаты:</h4>
                 <ul className="payment-methods__list margin_none padding_none">{paymentMethodsArr.map((el) => (
                     <li className="payment-method">
                         <img src={el.img} alt={`изображение способа оплаты ${el.name}`} />
@@ -29,8 +29,8 @@ const Footer = () => {
                 </ul>
             </div>
             <form className="mailing-form">
-                <h4 className="mailing-form__title">Подписаться на рассылку</h4>
-                <input type="email" placeholder="Ваша электронная почта" className="mailing-form__input" />
+                <h4 className="mailing-form__title footer__title margin_none">Подписаться на рассылку</h4>
+                <input type="email" placeholder="Ваша электронная почта" className="mailing-form__input margin_none" />
                 <button className="mailing-form__button button_color_yellow button_width_narrow margin_none padding_none" >Подписаться</button>
             </form>
         </footer>
