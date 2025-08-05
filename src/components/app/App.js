@@ -6,6 +6,7 @@ import Footer from '../footer/Footer';
 
 import CompanyPage from '../../pages/company/CompanyPage';
 import StaffPage from '../../pages/company/StaffPage';
+import VacancyPage from '../../pages/company/VacancyPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/company' element={<CompanyPage />} />
         <Route path='/staff' element={<StaffPage />} />
+        <Route path='/vacancy' element={<VacancyPage />} />
       </Routes>
       <Footer />
     </div>
