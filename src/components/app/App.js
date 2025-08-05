@@ -8,6 +8,7 @@ import CompanyPage from '../../pages/company/CompanyPage';
 import StaffPage from '../../pages/company/StaffPage';
 import VacancyPage from '../../pages/company/VacancyPage';
 import BrendsPage from '../../pages/company/BrendsPage';
+import ShopsPage from '../../pages/company/ShopsPage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/staff' element={<StaffPage />} />
         <Route path='/vacancy' element={<VacancyPage />} />
         <Route path='/brends' element={<BrendsPage />} />
+        <Route path='/shops' element={<ShopsPage />} />
       </Routes>
       <Footer />
     </div>
