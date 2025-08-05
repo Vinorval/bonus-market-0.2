@@ -10,6 +10,10 @@ import VacancyPage from '../../pages/company/VacancyPage';
 import BrendsPage from '../../pages/company/BrendsPage';
 import ShopsPage from '../../pages/company/ShopsPage';
 
+
+
+import ServicesPage from '../../pages/company/ServicesPage';
+
 function App() {
   return (
     <div className="App">
@@ -21,6 +25,10 @@ function App() {
         <Route path='/vacancy' element={<VacancyPage />} />
         <Route path='/brends' element={<BrendsPage />} />
         <Route path='/shops' element={<ShopsPage />} />
+
+
+
+        <Route path='/services' element={<ServicesPage />} />
       </Routes>
       <Footer />
     </div>
