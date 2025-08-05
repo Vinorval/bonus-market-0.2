@@ -5,6 +5,7 @@ import Header from "../header/Header";
 import Footer from '../footer/Footer';
 
 import CompanyPage from '../../pages/company/CompanyPage';
+import StaffPage from '../../pages/company/StaffPage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/company' element={<CompanyPage />} />
+        <Route path='/staff' element={<StaffPage />} />
       </Routes>
       <Footer />
     </div>
