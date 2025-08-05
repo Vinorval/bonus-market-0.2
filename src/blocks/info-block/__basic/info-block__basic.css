@@ -1,0 +1,6 @@
+.info-block__basic {
+    display: grid;
+    row-gap: 14px;
+    align-items: center;
+    column-gap: 30px;
+}

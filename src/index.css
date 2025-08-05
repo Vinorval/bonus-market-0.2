@@ -20,6 +20,21 @@
 @import url(./blocks/block-call-back/_position/block-call-back__position_footer.css);
 @import url(./blocks/block-call-back/__button/_position/block-call-back__button_position_footer.css);
 
+@import url(./blocks/page/page.css);
+@import url(./blocks/page/__title/page__title.css);
+@import url(./blocks/pages-nav/pages-nav.css);
+@import url(./blocks/pages-nav/__link/pages-nav__link.css);
+@import url(./blocks/pages-nav/__link/_active/pages-nav__link_active.css);
+
+@import url(./blocks/info-block/info-block.css);
+@import url(./blocks/info-block/__basic/info-block__basic.css);
+@import url(./blocks/info-block/__basic/_background/info-block__basic_background_active.css);
+@import url(./blocks/info-block/__title/info-block__title.css);
+@import url(./blocks/info-block/__title/_width/info-block__title_width_full.css);
+
+@import url(./blocks/location/location.css);
+@import url(./blocks/location/__link/location__link.css);
+
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__title/footer__title.css);
 @import url(./blocks/mailing-form/mailing-form.css);

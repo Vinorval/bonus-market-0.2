@@ -1,0 +1,8 @@
+.page {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 10%;
+    row-gap: 24px;
+    margin: 40px auto;
+}

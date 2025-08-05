@@ -4,12 +4,16 @@ import Navigation from "../navigation/Navigation";
 import Header from "../header/Header";
 import Footer from '../footer/Footer';
 
+import CompanyPage from '../../pages/company/CompanyPage';
+
 function App() {
   return (
     <div className="App">
       <Navigation />
       <Header />
-      <Routes></Routes>
+      <Routes>
+        <Route path='/company' element={<CompanyPage />} />
+      </Routes>
       <Footer />
     </div>
   );

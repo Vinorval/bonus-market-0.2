@@ -1,0 +1,5 @@
+.pages-nav {
+    grid-column: 1 / 2;
+    display: grid;
+    gap: 10px;
+}
