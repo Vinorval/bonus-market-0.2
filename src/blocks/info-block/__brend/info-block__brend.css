@@ -1,0 +1,10 @@
+.info-block__brend {
+    width: 90px;
+    height: 90px;
+    background-color: rgba(21, 158, 187, 0.1);
+    border-radius: 12px;
+    list-style-type: none;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}

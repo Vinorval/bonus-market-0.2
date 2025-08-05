@@ -31,6 +31,8 @@
 @import url(./blocks/info-block/__basic/_background/info-block__basic_background_active.css);
 @import url(./blocks/info-block/__title/info-block__title.css);
 @import url(./blocks/info-block/__title/_width/info-block__title_width_full.css);
+@import url(./blocks/info-block/__brends/info-block__brends.css);
+@import url(./blocks/info-block/__brend/info-block__brend.css);
 
 @import url(./blocks/location/location.css);
 @import url(./blocks/location/__link/location__link.css);
