@@ -1,0 +1,4 @@
+.news-list {
+    display: grid;
+    gap: 24px;
+}

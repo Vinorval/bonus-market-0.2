@@ -1,0 +1,5 @@
+.news-card {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 300px calc(100% - 24px - 300px);
+}

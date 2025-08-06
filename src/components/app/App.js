@@ -11,7 +11,7 @@ import BrendsPage from '../../pages/company/BrendsPage';
 import ShopsPage from '../../pages/company/ShopsPage';
 
 
-
+import PromotionsPage from '../../pages/company/PromotionsPage';
 import ServicesPage from '../../pages/company/ServicesPage';
 
 import ShopPage from '../../pages/shop/ShopPage';
@@ -33,7 +33,7 @@ function App() {
         <Route path='/shops' element={<ShopsPage />} />
 
 
-
+        <Route path='/promotions' element={<PromotionsPage />} />
         <Route path='/services' element={<ServicesPage />} />
 
         <Route path='/shop' element={<ShopPage />} />
