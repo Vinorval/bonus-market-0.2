@@ -15,7 +15,7 @@ import ShopsPage from '../../pages/company/ShopsPage';
 import ServicesPage from '../../pages/company/ServicesPage';
 
 import ShopPage from '../../pages/shop/ShopPage';
-
+import DeliveryPage from '../../pages/shop/DeliveryPage';
 
 
 import OrderCreatePage from '../../pages/shop/OrderCreatePage';
@@ -37,7 +37,7 @@ function App() {
         <Route path='/services' element={<ServicesPage />} />
 
         <Route path='/shop' element={<ShopPage />} />
-
+        <Route path='/delivery' element={<DeliveryPage />} />
 
 
         <Route path='/make_order' element={<OrderCreatePage />} />
