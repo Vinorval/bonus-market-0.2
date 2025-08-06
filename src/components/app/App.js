@@ -17,7 +17,7 @@ import ServicesPage from '../../pages/company/ServicesPage';
 import ShopPage from '../../pages/shop/ShopPage';
 import DeliveryPage from '../../pages/shop/DeliveryPage';
 import PayInfoPage from '../../pages/shop/PayInfoPage';
-
+import RefundPage from '../../pages/shop/RefundPage';
 import OrderCreatePage from '../../pages/shop/OrderCreatePage';
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
         <Route path='/shop' element={<ShopPage />} />
         <Route path='/delivery' element={<DeliveryPage />} />
         <Route path='/pay' element={<PayInfoPage />} />
-
+        <Route path='/refund' element={<RefundPage />} />
         <Route path='/make_order' element={<OrderCreatePage />} />
       </Routes>
       <Footer />

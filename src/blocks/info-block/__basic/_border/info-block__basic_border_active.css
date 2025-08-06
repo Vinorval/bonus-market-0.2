@@ -1,0 +1,4 @@
+.info-block__basic_border_active {
+    border: solid 5px rgba(238, 231, 187, 0.4);
+    padding: 10px;
+}
