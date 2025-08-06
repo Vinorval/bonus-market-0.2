@@ -16,6 +16,10 @@ import ServicesPage from '../../pages/company/ServicesPage';
 
 import ShopPage from '../../pages/shop/ShopPage';
 
+
+
+import OrderCreatePage from '../../pages/shop/OrderCreatePage';
+
 function App() {
   return (
     <div className="App">
@@ -33,6 +37,10 @@ function App() {
         <Route path='/services' element={<ServicesPage />} />
 
         <Route path='/shop' element={<ShopPage />} />
+
+
+
+        <Route path='/make_order' element={<OrderCreatePage />} />
       </Routes>
       <Footer />
     </div>
