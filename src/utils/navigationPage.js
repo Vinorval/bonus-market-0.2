@@ -24,7 +24,7 @@ export const navPagesCompanyArr = [
         text: 'Контакты'
     },
     {
-        path: '/news',
+        path: '/news-list',
         text: 'Новости'
     },
     {
