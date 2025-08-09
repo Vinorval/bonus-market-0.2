@@ -5,7 +5,7 @@ import { navPagesCompanyArr } from "../../utils/navigationPage";
 import plombir from "../../images/promotions/plombir.jpg";
 
 const NewsListPage = () => {
-    const location = [ { link: "/", text: 'Главная ' }, { link: "/news-list", text: '/ Новости ' } ];
+    const location = [ { link: "/", text: 'Главная ' }, { link: "/company", text: '/ О компании ' }, { link: "/news-list", text: '/ Новости ' } ];
 
     return (
         <main className="page padding_limit_width">
