@@ -1,27 +1,27 @@
 const navigationLinks = [
     {
         name: 'О компании',
-        link: '',
+        link: '/company',
     },
     {
         name: 'Как сделать заказ',
-        link: '',
+        link: '/make_order',
     },
     {
         name: 'Оплата',
-        link: '',
+        link: '/pay',
     },
     {
         name: 'Доставка',
-        link: '',
+        link: '/delivery',
     },
     {
         name: 'Акции',
-        link: '',
+        link: '/promotions',
     },
     {
         name: 'Контакты',
-        link: '',
+        link: '/contacts',
     },
 ];
 

@@ -68,6 +68,7 @@
 @import url(./blocks/button/_width/button_width_narrow.css);
 
 @import url(./blocks/list-style/list-style_none.css);
+@import url(./blocks/text-decoration/text-decoration.css);
 
 body {
   max-width: 2080px;

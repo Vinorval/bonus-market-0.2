@@ -3,6 +3,7 @@ import Socials from "../socials/Socials";
 import navigationLinks from "../../utils/navigationLinks";
 import paymentMethodsArr from "../../utils/payment";
 import BlockCallBack from "../blockCallBack/BlockCallBack";
+import { NavLink } from "react-router";
 
 
 const Footer = () => {
@@ -17,7 +18,11 @@ const Footer = () => {
             <nav className="navigation" >
                 <h4 className="navigation__title footer__title margin_none">О нас:</h4>
                 <ul className="navigation__list navigation__list_position_footer margin_none padding_none" >
-                    {navigationLinks.map((el) => (<li className="navigation__link" >{el.name}</li>))}
+                    {navigationLinks.map((el, index) => (
+                        <li key={index} className="navigation__link" >
+                            <NavLink className="text-decoration" to={el.link}>{el.name}</NavLink>
+                        </li>
+                    ))}
                 </ul>
             </nav>
             <div className="payment-methods">
