@@ -1,3 +1,4 @@
+import { NavLink } from "react-router";
 import Location from "../../components/location/Location";
 import Nav from "../../components/nav/Nav";
 import { navPagesCompanyArr } from "../../utils/navigationPage";
@@ -23,7 +24,9 @@ const PromotionsPage = () => {
                                 <p className="margin_none">{el.name}</p>
                                 <span>{el.date}</span>
                                 <p className="margin_none">{el.description}</p>
-                                <button className="news-card__button button_color_yellow button_width_narrow margin_none padding_none">Подробнее</button>
+                                <NavLink className="news-card__info text-decoration" to={el.id}>
+                                    <button className="news-card__button button_color_yellow button_width_narrow margin_none padding_none">Подробнее</button>
+                                </NavLink>
                             </div>
                         </li>
                     ))}

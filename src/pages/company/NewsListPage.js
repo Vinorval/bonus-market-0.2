@@ -20,14 +20,14 @@ const NewsListPage = () => {
                     {newsArr.map((el) => (
                         <li key={el.id} className="margin_none list-style_none news-card">
                             <img src={el.img} alt={el.name} />
-                                <div className="news-card__info">
-                                    <p className="margin_none">{el.name}</p>
-                                    <span>{el.date}</span>
-                                    <p className="margin_none">{el.description}</p>
-                                    <NavLink className="news-card__info text-decoration" to={el.id}>
-                                        <button className="news-card__button button_color_yellow button_width_narrow margin_none padding_none">Подробнее</button>
-                                    </NavLink>
-                                </div>
+                            <div className="news-card__info">
+                                <p className="margin_none">{el.name}</p>
+                                <span>{el.date}</span>
+                                <p className="margin_none">{el.description}</p>
+                                <NavLink className="news-card__info text-decoration" to={el.id}>
+                                    <button className="news-card__button button_color_yellow button_width_narrow margin_none padding_none">Подробнее</button>
+                                </NavLink>
+                            </div>
                         </li>
                     ))}
                 </ul>

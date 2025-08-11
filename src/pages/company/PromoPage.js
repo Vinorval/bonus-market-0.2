@@ -1,13 +1,13 @@
 import Location from "../../components/location/Location";
 import Nav from "../../components/nav/Nav";
 import { navPagesCompanyArr } from "../../utils/navigationPage";
-import { newsArr } from "../../utils/promoAndNews";
+import { promoArr } from "../../utils/promoAndNews";
 import { useLocation } from "react-router";
 
-const NewsPage = () => {
+const PromoPage = () => {
     const path = useLocation();
-    const item = newsArr.find(item => item.id === path.pathname.slice(-3));
-    const location = [ { link: "/", text: 'Главная ' }, { link: "/company", text: '/ О компании ' }, { link: "/news-list", text: '/ Новости ' }, { link: `/news-list/${item.id}`, text: `/ ${item.name} ` } ];
+    const item = promoArr.find(item => item.id === path.pathname.slice(-3));
+    const location = [ { link: "/", text: 'Главная ' }, { link: "/company", text: '/ О компании ' }, { link: "/promotions", text: '/ Акции ' }, { link: `/promotions/${item.id}`, text: `/ ${item.name} ` } ];
 
     return (
         <main className="page padding_limit_width">
@@ -25,4 +25,4 @@ const NewsPage = () => {
     )
 };
 
-export default NewsPage;
+export default PromoPage;
