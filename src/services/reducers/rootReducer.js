@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 
-import { profileReducet } from './profileReducer';
+import { authReducet } from './authReducer';
 
 export const rootReducer = combineReducers({
-    profile: profileReducet,
+    auth: authReducet,
 });
