@@ -1,0 +1,4 @@
+.form-auth__inputs-block {
+    display: grid;
+    row-gap: 15px;
+}

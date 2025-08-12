@@ -23,6 +23,8 @@ import PayInfoPage from '../../pages/shop/PayInfoPage';
 import RefundPage from '../../pages/shop/RefundPage';
 import OrderCreatePage from '../../pages/shop/OrderCreatePage';
 
+import LoginPage from '../../pages/auth/LoginPage';
+
 function App() {
   return (
     <div className="App">
@@ -47,6 +49,8 @@ function App() {
         <Route path='/pay' element={<PayInfoPage />} />
         <Route path='/refund' element={<RefundPage />} />
         <Route path='/make_order' element={<OrderCreatePage />} />
+
+        <Route path='/log-in' element={<LoginPage />} />
       </Routes>
       <Footer />
     </div>
