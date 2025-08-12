@@ -1,0 +1,5 @@
+.contacts__input_type_textarea {
+    grid-row: 1 / 4;
+    grid-column: 2 / 3;
+    padding-top: 12px;
+}

@@ -14,6 +14,7 @@ import PromoPage from '../../pages/company/PromoPage';
 import ServicesPage from '../../pages/company/ServicesPage';
 import NewsListPage from '../../pages/company/NewsListPage';
 import NewsPage from '../../pages/company/NewsPage';
+import ContactsPage from '../../pages/company/ContactsPage';
 
 import ShopPage from '../../pages/shop/ShopPage';
 import DeliveryPage from '../../pages/shop/DeliveryPage';
@@ -37,6 +38,7 @@ function App() {
         <Route path='/promotions' element={<PromotionsPage />} />
         <Route path="/promotions/:promo" element={ <PromoPage /> } />
         <Route path='/services' element={<ServicesPage />} />
+        <Route path='/contacts' element={<ContactsPage />} />
 
         <Route path='/shop' element={<ShopPage />} />
         <Route path='/delivery' element={<DeliveryPage />} />

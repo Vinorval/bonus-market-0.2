@@ -1,0 +1,6 @@
+.contacts__button {
+    border: none;
+    height: 30px;
+    border-radius: 12px;
+    z-index: 2;
+}

@@ -10,6 +10,12 @@
 @import url(./blocks/logo/logo.css);
 
 @import url(./blocks/contacts/contacts.css);
+@import url(./blocks/contacts/_position/contacts_position_page.css);
+@import url(./blocks/contacts/__button/contacts__button.css);
+@import url(./blocks/contacts/__text/contacts__text.css);
+@import url(./blocks/contacts/__form/contacts__form.css);
+@import url(./blocks/contacts/__input/contacts__input.css);
+@import url(./blocks/contacts/__input/_type/contacts__input_type_textarea.css);
 
 @import url(./blocks/search-form/search-form.css);
 @import url(./blocks/search-form/__input/search-form__input.css);
@@ -35,6 +41,7 @@
 @import url(./blocks/info-block/__title/_hight/info-block__title_hight_full.css);
 @import url(./blocks/info-block/__brends/info-block__brends.css);
 @import url(./blocks/info-block/__brend/info-block__brend.css);
+@import url(./blocks/info-block/__contact/info-block__contact.css);
 
 @import url(./blocks/location/location.css);
 @import url(./blocks/location/__link/location__link.css);

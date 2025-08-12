@@ -1,0 +1,10 @@
+.contacts_position_page {
+    background-image: url(../../../images/background-contacts.jpg);
+    align-items: center;
+    justify-content: center;
+    max-height: 250px;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    max-width: 800px;
+}

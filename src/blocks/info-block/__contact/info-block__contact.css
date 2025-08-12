@@ -1,0 +1,4 @@
+.info-block__contact {
+    display: flex;
+    gap: 10px;
+}
