@@ -1,5 +1,5 @@
 import Logo from "../logo/Logo";
-
+import { NavLink } from "react-router";
 import LoupeIcon from "../../images/form-icons/loupe.svg";
 import ComparisonIcon from "../../images/page-icons/chart.svg";
 import FavouritesIcon from "../../images/page-icons/like.svg";
@@ -28,7 +28,7 @@ const Header = () => {
                 <p className="header-link__name margin_none">Корзина</p>
             </li>
         </ul>
-        <button className="button button_color_yellow button_width_narrow margin_none padding_none" >Вход</button>
+        <button className="button button_color_yellow button_width_narrow margin_none padding_none" ><NavLink className='text-decoration' to='/log-in'>Вход</NavLink></button>
     </header>
 )};
 
