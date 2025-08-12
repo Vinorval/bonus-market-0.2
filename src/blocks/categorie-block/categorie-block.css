@@ -1,0 +1,6 @@
+.categorie-block {
+    max-width: 25%;
+    display: grid;
+    row-gap: 15px;
+    text-align: center;
+}

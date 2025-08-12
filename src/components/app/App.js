@@ -27,6 +27,8 @@ import LoginPage from '../../pages/auth/LoginPage';
 import SignUpPage from '../../pages/auth/SignUpPage';
 import ForgotPasswordPage from '../../pages/auth/ForgotPasswordPage';
 
+import CategoryPage from '../../pages/catalog/CategoryPage';
+
 import NotFoundPage from '../../pages/NotFoundPage';
 
 function App() {
@@ -57,6 +59,8 @@ function App() {
         <Route path='/log-in' element={<LoginPage />} />
         <Route path='/sign-up' element={<SignUpPage />} />
         <Route path='/forgot-password' element={<ForgotPasswordPage />} />
+
+        <Route path='/category' element={<CategoryPage />} />
 
         <Route path='*' element={<NotFoundPage />} />
       </Routes>

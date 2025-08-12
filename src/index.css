@@ -64,6 +64,10 @@
 @import url(./blocks/form-auth/__text/form-auth__text.css);
 @import url(./blocks/form-auth/__link/form-auth__link.css);
 
+@import url(./blocks/categorie-list/categorie-list.css);
+@import url(./blocks/categorie-block/categorie-block.css);
+@import url(./blocks/categorie-block/__img/categorie-block__img.css);
+
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__title/footer__title.css);
 
