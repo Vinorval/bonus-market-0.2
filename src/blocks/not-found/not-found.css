@@ -1,0 +1,7 @@
+.not-found {
+    margin: calc((100vh - 36px - 114px - 325px - 175px) / 2) 0;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    row-gap: 24px;
+}
