@@ -25,6 +25,7 @@ import OrderCreatePage from '../../pages/shop/OrderCreatePage';
 
 import LoginPage from '../../pages/auth/LoginPage';
 import SignUpPage from '../../pages/auth/SignUpPage';
+import ForgotPasswordPage from '../../pages/auth/ForgotPasswordPage';
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
 
         <Route path='/log-in' element={<LoginPage />} />
         <Route path='/sign-up' element={<SignUpPage />} />
+        <Route path='/forgot-password' element={<ForgotPasswordPage />} />
       </Routes>
       <Footer />
     </div>

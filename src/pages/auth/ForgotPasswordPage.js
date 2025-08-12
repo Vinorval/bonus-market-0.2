@@ -1,16 +1,14 @@
 import AuthForm from "../../components/authForm/AuthFrom";
 
-const LoginPage = () => {
+const ForgotPasswordPage = () => {
     const formObject = {
-        title: 'Вход',
+        title: 'Восстановление пароля',
         inputArr: [
             { name: 'email', type: 'email', placeholder: 'Email' },
-            { name: 'password', type: 'password', placeholder: 'Пароль' }
         ],
-        button: 'Войти',
+        button: 'Восстановить',
         linksArr: [
-            { text: 'Вы — новый пользователь?', path: '/sign-up', link: 'Зарегистрироваться' },
-            { text: 'Забыли пароль?', path: '/forgot-password', link: 'Восстановить пароль' },
+            { text: 'Вспомнили пароль?', path: '/sign-up', link: 'Войти' },
         ],
     };
 
@@ -26,4 +24,4 @@ const LoginPage = () => {
     )
 };
 
-export default LoginPage;
+export default ForgotPasswordPage;
