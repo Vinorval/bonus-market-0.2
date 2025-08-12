@@ -8,6 +8,7 @@ import CompanyPage from '../../pages/company/CompanyPage';
 import StaffPage from '../../pages/company/StaffPage';
 import VacancyPage from '../../pages/company/VacancyPage';
 import BrendsPage from '../../pages/company/BrendsPage';
+import BrendPage from '../../pages/company/BrendPage';
 import ShopsPage from '../../pages/company/ShopsPage';
 import PromotionsPage from '../../pages/company/PromotionsPage';
 import PromoPage from '../../pages/company/PromoPage';
@@ -32,6 +33,7 @@ function App() {
         <Route path='/staff' element={<StaffPage />} />
         <Route path='/vacancy' element={<VacancyPage />} />
         <Route path='/brends' element={<BrendsPage />} />
+        <Route path="/brends/:brend" element={ <BrendPage /> } />
         <Route path='/shops' element={<ShopsPage />} />
         <Route path='/news-list' element={<NewsListPage />} />
         <Route path="/news-list/:news" element={ <NewsPage /> } />
