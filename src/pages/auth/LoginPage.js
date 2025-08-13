@@ -30,13 +30,9 @@ const LoginPage = () => {
                 <h3 className="margin_none">Просьба не вносить настоящие данные.</h3>
                 <p className="margin_none">Данный сайт - дэмо. Он работает без сервера, а все данные сохраняются в кэше вашего браузера.</p>
             </Modal>
-            <Modal show={showModal} closePopup={onClick} type='call-back'>
-                <AuthForm 
-                title='Заказать звонок'
-                inputArr={[{ name: 'name', type: 'text', placeholder: 'Ваше имя' }, { name: 'phone', type: 'phone', placeholder: 'Номер телефона' }]} 
-                button='Отправить' 
-                linksArr={[]} 
-            />
+            <Modal show={showModal} closePopup={onClick} type='success-pay'>
+                <h3 className="margin_none">Заказ сделан!</h3>
+                <p className="margin_none">Наш оператор вскоре свяжется с вами для уточнения времени доставки</p>
             </Modal>
         </main>
     )
