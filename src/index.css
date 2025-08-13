@@ -75,6 +75,13 @@
 @import url(./blocks/not-found/__link/not-found__link.css);
 @import url(./blocks/not-found/__text/not-found__text.css);
 
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/_type/popup_type_warning.css);
+@import url(./blocks/popup/_show/popup_show_active.css);
+@import url(./blocks/popup/__wrap/popup__wrap.css);
+@import url(./blocks/popup/__children/popup__children.css);
+@import url(./blocks/popup/__button-close/popup__button-close.css);
+
 @import url(./blocks/mailing-form/mailing-form.css);
 @import url(./blocks/mailing-form/__input/mailing-form__input.css);
 @import url(./blocks/mailing-form/__button/mailing-form__button.css);
