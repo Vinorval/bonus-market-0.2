@@ -80,6 +80,7 @@
 @import url(./blocks/popup/_type/popup_type_promo.css);
 @import url(./blocks/popup/_type/popup_type_call-back.css);
 @import url(./blocks/popup/_type/popup_type_success-pay.css);
+@import url(./blocks/popup/_type/popup_type_pay-one-click.css);
 @import url(./blocks/popup/_show/popup_show_active.css);
 @import url(./blocks/popup/__wrap/popup__wrap.css);
 @import url(./blocks/popup/__children/popup__children.css);

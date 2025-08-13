@@ -7,6 +7,20 @@
 <Modal show={showModal} closePopup={onClick} type='call-back'>
     <AuthForm 
         title='Заказать звонок'
+        inputArr={[{ name: 'name', type: 'text', placeholder: 'Ваше имя' }, { name: 'phone', type: 'phone', placeholder: 'Номер телефона' }]}
+        button='Отправить' 
+        linksArr={[]} 
+    />
+</Modal>
+
+<Modal show={showModal} closePopup={onClick} type='success-pay'>
+    <h3 className="margin_none">Заказ сделан!</h3>
+    <p className="margin_none">Наш оператор вскоре свяжется с вами для уточнения времени доставки</p>
+</Modal>
+
+<Modal show={showModal} closePopup={onClick} type='pay-one-click'>
+    <AuthForm 
+        title='Купить в один клик'
         inputArr={[{ name: 'name', type: 'text', placeholder: 'Ваше имя' }, { name: 'phone', type: 'phone', placeholder: 'Номер телефона' }]} 
         button='Отправить' 
         linksArr={[]} 
