@@ -1,0 +1,14 @@
+.adress-block__adresses {
+    min-height: 60%;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(21, 158, 187, 0.1);
+    border-radius: 12px;
+    display: flex;
+    justify-items: center;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}

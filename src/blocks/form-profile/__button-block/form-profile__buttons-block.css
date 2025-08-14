@@ -1,0 +1,4 @@
+.form-profile__buttons-block {
+    display: flex;
+    justify-content: space-between;
+}

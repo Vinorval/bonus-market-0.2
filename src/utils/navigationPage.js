@@ -59,3 +59,21 @@ export const navPagesShopArr = [
         text: 'Как сделать заказ'
     },
 ];
+export const navPagesProfileArr = [
+    {
+        path: '/profile',
+        text: 'Профиль'
+    },
+    {
+        path: '/orders',
+        text: 'История заказов'
+    },
+    {
+        path: '/favourites',
+        text: 'Избранное'
+    },
+    {
+        path: '/',
+        text: 'Выход'
+    },
+];
