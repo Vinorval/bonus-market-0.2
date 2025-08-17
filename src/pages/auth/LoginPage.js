@@ -26,7 +26,7 @@ const LoginPage = () => {
                 button={formObject.button} 
                 linksArr={formObject.linksArr} 
             />
-            <Modal show={!showModal} closePopup={onClick} type='warning'>
+            <Modal show={showModal} closePopup={onClick} type='warning'>
                 <h3 className="margin_none">Просьба не вносить настоящие данные.</h3>
                 <p className="margin_none">Данный сайт - дэмо. Он работает без сервера, а все данные сохраняются в кэше вашего браузера.</p>
             </Modal>

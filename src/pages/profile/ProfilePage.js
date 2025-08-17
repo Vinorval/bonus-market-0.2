@@ -1,6 +1,9 @@
+import React from "react";
 import Location from "../../components/location/Location";
 import Nav from "../../components/nav/Nav";
 import { navPagesProfileArr } from "../../utils/navigationPage";
+import Modal from "../../components/modal/Modal";
+import AuthForm from "../../components/authForm/AuthFrom";
 
 import iconChange from '../../images/change.svg';
 import deleteButton from '../../images/close-little.svg'; 
@@ -8,12 +11,26 @@ import deleteButton from '../../images/close-little.svg';
 const ProfilePage = () => {
     const location = [ { link: "/", text: 'Главная ' }, { link: "/profile", text: '/ Профиль ' }, ];
     const inputArr = [
-        { name: 'surname', type: 'surname', value: 'Виноградова' },
-        { name: 'name', type: 'name', value: 'Валерия' },
+        { name: 'surname', type: 'text', value: 'Виноградова' },
+        { name: 'name', type: 'text', value: 'Валерия' },
         { name: 'email', type: 'email', value: 'Email' },
         { name: 'phone', type: 'phone', value: '' },
         { name: 'password', type: 'password', value: 'Пароль' }
     ];
+    const formObject = {
+        title: 'Адрес доставки',
+        inputArr: [
+            { name: 'surname', type: 'text', placeholder: 'Фамилия' },
+            { name: 'email', type: 'email', placeholder: 'Email' },
+            { name: 'phone', type: 'phone', placeholder: 'Телефон' },
+            { name: 'city', type: 'text', placeholder: 'Город' },
+            { name: 'adress', type: 'text', placeholder: 'Адрес доставки' },
+        ],
+        button: 'Добавить адрес',
+        linksArr: [],
+    };
+    const [ showModal, setShowModal ] = React.useState(false);
+    const onClickClose = () => setShowModal(!showModal);
 
     return (
         <main className="page padding_limit_width">
@@ -51,6 +68,14 @@ const ProfilePage = () => {
                 </div>
                 <h3 className="info-block__title margin_none info-block__title_width_full"> </h3>
             </section>
+            <Modal show={showModal} closePopup={onClickClose} type='warning'>
+                <AuthForm 
+                    title={formObject.title}
+                    inputArr={formObject.inputArr}
+                    button={formObject.button} 
+                    linksArr={formObject.linksArr} 
+                />
+            </Modal>
         </main>
     )
 };
