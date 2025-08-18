@@ -31,6 +31,7 @@ import ProfilePage from '../../pages/profile/ProfilePage';
 import HistoryOrdersPage from '../../pages/profile/HistoryOrdersPage';
 
 import CategoryPage from '../../pages/catalog/CategoryPage';
+import CatalogPage from '../../pages/catalog/Catalog.page';
 
 import NotFoundPage from '../../pages/NotFoundPage';
 
@@ -67,6 +68,7 @@ function App() {
         <Route path='/orders' element={<HistoryOrdersPage />} />
 
         <Route path='/category' element={<CategoryPage />} />
+        <Route path='/category/:catalog' element={<CatalogPage />} />
 
         <Route path='*' element={<NotFoundPage />} />
       </Routes>

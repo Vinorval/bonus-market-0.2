@@ -1,0 +1,15 @@
+.product__popup {
+    position: absolute;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.6);
+    opacity: 0;
+}
+
+.product__popup:hover {
+    opacity: 1;
+}

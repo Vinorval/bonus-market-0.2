@@ -6,12 +6,12 @@ import konditerka from "../images/category/konditerka.jpg";
 import water from "../images/category/water.jpg";
 
 const catalogArr = [
-    { name: 'Бакалея', img: bakaleya, },
-    { name: 'Кондитерка', img: konditerka, },
-    { name: 'Напитки', img: water, },
-    { name: 'Снеки', img: sneks, },
-    { name: 'Молчная продукция', img: milk, },
-    { name: 'Замороженные продукты, мороженое', img: ice, },
+    { name: 'Бакалея', img: bakaleya, to: "bakaleya" },
+    { name: 'Кондитерка', img: konditerka, to: "konditerka" },
+    { name: 'Напитки', img: water, to: "water" },
+    { name: 'Снеки', img: sneks, to: "sneks" },
+    { name: 'Молочная продукция', img: milk, to: "milk" },
+    { name: 'Замороженные продукты, мороженное', img: ice, to: "ice" },
 ];
 
 export default catalogArr;

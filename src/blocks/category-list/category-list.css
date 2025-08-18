@@ -1,0 +1,10 @@
+.category-list {
+    grid-column: 1 / 2;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    background-color: rgba(21, 158, 187, 0.1);
+    border-radius: 12px;
+    height: 400px;
+    padding: 24px;
+}

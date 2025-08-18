@@ -1,0 +1,5 @@
+.products__displayed {
+    align-self: end;
+    display: flex;
+    gap: 0px;
+}

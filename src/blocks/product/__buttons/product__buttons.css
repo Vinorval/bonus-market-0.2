@@ -1,0 +1,6 @@
+.product__buttons {
+    display: flex;
+    padding-right: 5px;
+    padding-top: 5px;
+    align-self: flex-end;
+}

@@ -1,0 +1,7 @@
+.product__img {
+    max-height: 180px;
+    padding: 10px;
+    border: 5px solid rgba(21, 158, 187, 0.1);
+    border-radius: 12px 12px 0 0;
+    object-fit: contain;
+}

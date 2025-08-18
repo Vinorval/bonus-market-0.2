@@ -1,3 +1,4 @@
+import products from "../../utils/products";
 import {
     GET_PRODUCTS_SUCCESS,
     ADD_PRODUCT_SUCCESS,
@@ -12,7 +13,7 @@ import {
 } from "../actions/products";
 
 const initialState= {
-    products: [],
+    products: products,
     order: [],
     orders: [],
     copparison: [],

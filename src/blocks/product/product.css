@@ -1,0 +1,6 @@
+.product {
+    position: relative;
+    max-width: 210px;
+    display: flex;
+    flex-direction: column;
+}
