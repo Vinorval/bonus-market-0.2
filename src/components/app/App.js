@@ -28,6 +28,7 @@ import SignUpPage from '../../pages/auth/SignUpPage';
 import ForgotPasswordPage from '../../pages/auth/ForgotPasswordPage';
 
 import ProfilePage from '../../pages/profile/ProfilePage';
+import HistoryOrdersPage from '../../pages/profile/HistoryOrdersPage';
 
 import CategoryPage from '../../pages/catalog/CategoryPage';
 
@@ -63,6 +64,7 @@ function App() {
         <Route path='/forgot-password' element={<ForgotPasswordPage />} />
 
         <Route path='/profile' element={<ProfilePage />} />
+        <Route path='/orders' element={<HistoryOrdersPage />} />
 
         <Route path='/category' element={<CategoryPage />} />
 

@@ -76,6 +76,9 @@
 @import url(./blocks/adress-block/__list/adress-block__list.css);
 @import url(./blocks/adress/adress.css);
 
+@import url(./blocks/order-list/order-list.css);
+@import url(./blocks/order/order.css);
+
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__title/footer__title.css);
 
