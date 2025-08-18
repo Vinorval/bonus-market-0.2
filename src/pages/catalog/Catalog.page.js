@@ -1,3 +1,4 @@
+import React from "react";
 import Location from "../../components/location/Location";
 import catalogArr from "../../utils/catalog";
 import { useLocation } from "react-router";
@@ -15,6 +16,24 @@ const CatalogPage = () => {
     const category = catalogArr.find(item => item.to === path.pathname.slice(10));
     const categorysArr = categoriesArr.find(item => item.name === category.name);
     const location = [ { link: "/", text: 'Главная ' }, { link: "/category", text: '/ Каталог ' }, { link: `/category/${category.to}`, text: `/ ${category.name} ` } ];
+    const [startCard, setSartCard] = React.useState(8);
+    const ProductCards = products.slice(0, startCard);
+
+    function hideButton() {
+        if ((products.length === ProductCards.length)) {
+          return true
+        } else {
+          return false
+        }
+    }
+
+    function handleMore() {
+        if( window.innerWidth < 768 ) {
+          return setSartCard(startCard + 5)
+        } if (window.innerWidth >= 768) {
+          return setSartCard(startCard + 12)
+        }
+    }
 
     return (
         <main className="page padding_limit_width" >
@@ -31,14 +50,14 @@ const CatalogPage = () => {
                     <button className="button margin_none padding_none background_none"><img src={listMenu} alt="кнопка отображенния товаров в виде списка" /></button>
                 </div>
                 <ul className="products__list">
-                    {products.map((el) => (
+                    {ProductCards.map((el) => (
                         <Product key={el._id} item={el} />
                     ))}
                 </ul>
-                <button className="button__more" >
+                { !hideButton() && <button onClick={handleMore} className="button__more" >
                     <img src={moreButton} alt="button 'more'"/>
                     Показать ещё
-                </button>
+                </button> }
             </section>
         </main>
     )

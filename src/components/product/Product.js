@@ -5,7 +5,7 @@ import chart from "../../images/page-icons/chart.svg";
 const Product = ({item}) => {
     return (
         <li className="product product_type_cart">
-            <img src={item.img} alt="product`s photo" className="product__img" />
+            <img src={item.img} alt="product" className="product__img" />
             <div className="product__info">
                 <p className="margin_none">{item.name}</p>
                 <h4 className="margin_none">{item.price}</h4>
