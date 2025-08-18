@@ -6,7 +6,8 @@ import {
     UPDATE_USER,
     RESET_PASSWORD,
     PUT_ADRESS, 
-    UDEPT_ADRESS
+    UDEPT_ADRESS,
+    DELETE_ADRESS,
 } from "../actions/auth";
 
 const initialState= {
@@ -43,6 +44,9 @@ export const authReducet = (state = initialState, action) => {
         }
         case UDEPT_ADRESS: {
           return { ...state, adress: action.adress }
+        }
+        case DELETE_ADRESS: {
+          return { ...state, adress: [...state.adress].filter((item) => item._id !== action.adress._id)  }
         }
         default: {
           return state;
