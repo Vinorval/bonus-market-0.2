@@ -1,6 +1,18 @@
 .categorie-block {
-    max-width: 25%;
+    max-width: 220px;
     display: grid;
     row-gap: 15px;
     text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .categorie-block {
+        max-width: 180px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .categorie-block {
+        max-width: 140px;
+    }
 }
