@@ -3,3 +3,10 @@
     gap: 24px;
     grid-template-columns: 90px calc(100% - 24px - 90px);
 }
+
+@media screen and (max-width: 786px) {
+    .brend-card {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}

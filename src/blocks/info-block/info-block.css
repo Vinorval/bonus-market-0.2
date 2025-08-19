@@ -4,3 +4,10 @@
     display: grid;
     row-gap: 20px;
 }
+
+@media screen and (max-width: 568px) {
+    .info-block {
+        grid-column: 1;
+        grid-row: 4;
+    }
+}
