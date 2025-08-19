@@ -1,3 +1,21 @@
 .popup_type_pay-one-click {
     left: 35vw;
 }
+
+@media screen and (max-width: 1100px) {
+    .popup_type_pay-one-click {
+        left: 25vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .popup_type_pay-one-click {
+        left: 15vw;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .popup_type_pay-one-click {
+        left: 5vw;
+    }
+}

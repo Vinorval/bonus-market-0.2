@@ -26,10 +26,15 @@ const LoginPage = () => {
                 button={formObject.button} 
                 linksArr={formObject.linksArr} 
             />
-            <Modal show={showModal} closePopup={onClick} type='warning'>
+            <Modal show={!showModal} closePopup={onClick} type='warning'>
                 <h3 className="margin_none">Просьба не вносить настоящие данные.</h3>
                 <p className="margin_none">Данный сайт - дэмо. Он работает без сервера, а все данные сохраняются в кэше вашего браузера.</p>
             </Modal>
+            <Modal show={showModal} closePopup={onClick} type='promo'>
+    <h3 className="margin_none">У вас есть промокод на 10%</h3>
+    <p className="margin_none">Используйте промокод ЗАКАЗ10 и получите скидку в 10%</p>
+    <button className="button margin_none padding_none button_color_yellow button_width_narrow" >Применить</button>
+</Modal>
         </main>
     )
 };
