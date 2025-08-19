@@ -4,3 +4,9 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (max-width: 786px) {
+    .adress-block {
+        margin-left: 0;
+    }
+}
