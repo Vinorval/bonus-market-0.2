@@ -3,7 +3,7 @@ import { NavLink } from "react-router";
 
 const Logo = () => (
     <NavLink className="logo" to={'/'}>
-        <img alt='Логотип компании "БонусМаркет.рф"' src={LogoImage} />
+        <img className="logo__img" alt='Логотип компании "БонусМаркет.рф"' src={LogoImage} />
     </NavLink>
 );
 

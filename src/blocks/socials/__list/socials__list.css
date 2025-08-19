@@ -3,3 +3,9 @@
     display: flex;
     gap: 18px;
 }
+
+@media screen and (max-width: 1280px) {
+    .socials__list {
+        gap: 6px;
+    }
+}

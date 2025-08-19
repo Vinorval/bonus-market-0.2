@@ -1,3 +1,9 @@
 .logo {
-    grid-column: 1/8;
+    grid-column: 1/5;
+}
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        grid-column: 1/4;
+    }
 }

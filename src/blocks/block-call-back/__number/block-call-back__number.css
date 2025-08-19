@@ -2,3 +2,9 @@
     font-size: 21px;
     text-decoration: solid;
 }
+
+@media screen and (max-width: 1280px) {
+    .block-call-back__number {
+        font-size: 18px;
+    }
+}

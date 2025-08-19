@@ -3,3 +3,9 @@
     display: flex;
     gap: 18px;
 }
+
+@media screen and (max-width: 1280px) {
+    .payment-methods__list {
+        gap: 9px;
+    }
+}

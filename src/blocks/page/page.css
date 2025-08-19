@@ -4,5 +4,23 @@
     grid-template-columns: 1fr 3fr;
     column-gap: 5%;
     row-gap: 24px;
-    margin: 40px auto;
+    margin: 40px 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .page {
+        width: 94%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .page {
+        grid-template-columns: 1.1fr 3fr;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .page {
+        grid-template-columns: 1fr;
+    }
 }

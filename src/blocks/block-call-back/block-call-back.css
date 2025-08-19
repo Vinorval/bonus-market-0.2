@@ -2,3 +2,17 @@
     display: flex;
     gap: 15px;
 }
+
+@media screen and (max-width: 1280px) {
+    .block-call-back {
+        gap: 8px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .block-call-back {
+        gap: 0px;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+}

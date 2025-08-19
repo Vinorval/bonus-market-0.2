@@ -5,3 +5,11 @@
     font-weight: bold;
     font-size: 20px;
 }
+
+@media screen and (max-width: 786px) {
+    .pages-nav__link {
+        padding-left: 14px;
+        font-weight: 600;
+        font-size: 18px;
+    }
+}

@@ -1,3 +1,9 @@
 .header-link__name {
     font-size: 12px;
 }
+
+@media screen and (max-width: 1024px) {
+    .header-link__name {
+        display: none;
+    }
+}
