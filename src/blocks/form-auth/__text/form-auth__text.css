@@ -3,3 +3,11 @@
     gap: 6px;
     justify-content: center;
 }
+
+@media screen and (max-width: 400px) {
+    .form-auth__text {
+        padding-top: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
