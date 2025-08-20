@@ -1,6 +1,6 @@
 import { NavLink } from "react-router";
 
-const AuthForm = ({ title, inputArr, button, linksArr }) => {
+const AuthForm = ({ title, inputArr, button, linksArr, error }) => {
     return (
         <form className="form-auth" >
             <h2 className="form-auth__title margin_none">{title}</h2>
@@ -8,7 +8,7 @@ const AuthForm = ({ title, inputArr, button, linksArr }) => {
                 {inputArr.map((el, index) => (
                     <label key={index} className="form-auth__label">
                         <input type={el.type} name={el.name} placeholder={el.placeholder} className="form-auth__input" />
-                        <span className="form-auth__error">error</span>
+                        {error && <span className="form-auth__error">error</span>}
                     </label>
                 ))}
             </div>

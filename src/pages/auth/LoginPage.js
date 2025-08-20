@@ -18,6 +18,7 @@ const LoginPage = () => {
     const [ showModal, setShowModal ] = React.useState(true);
     const onClick = () => setShowModal(!showModal);
 
+
     return (
         <main className="page__auth padding_limit_width">
             <AuthForm 
