@@ -27,9 +27,14 @@
 @import url(./blocks/block-call-back/_position/block-call-back__position_footer.css);
 @import url(./blocks/block-call-back/__button/_position/block-call-back__button_position_footer.css);
 
+@import url(./blocks/advantages/advantages.css);
+@import url(./blocks/advantages/__element/advantages__element.css);
+@import url(./blocks/advantages/__block/advantages__block.css);
+
 @import url(./blocks/page/page.css);
 @import url(./blocks/page/__title/page__title.css);
 @import url(./blocks/page/__auth/page__auth.css);
+@import url(./blocks/page/__home/page__home.css);
 
 @import url(./blocks/pages-nav/pages-nav.css);
 @import url(./blocks/pages-nav/__link/pages-nav__link.css);

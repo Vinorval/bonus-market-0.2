@@ -3,13 +3,13 @@ import promo2 from '../images/promo/dd6682980bcce810f7d5cd87da958782.jpg';
 import promo3 from '../images/promo/e5de30102fb1e8291172e0a1030861b6.jpg';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import Advantages from '../components/advantages/Advantages';
 
 const HomePage = () => {
-    const photoArr = [ { id: 1, img: promo1 }, { id: 2, img: promo2 }, { id: 3, img: promo3 } ];
 
     return (
        
-      <main className="page__auth padding_limit_width">
+      <main className="page__home padding_limit_width">
             <Carousel showThumbs={false}>
                 <div>
                     <img src={promo1} />
@@ -21,6 +21,7 @@ const HomePage = () => {
                     <img src={promo3} />
                 </div>
             </Carousel>  
+            <Advantages />
         </main>
     
     );

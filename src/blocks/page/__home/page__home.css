@@ -1,0 +1,6 @@
+.page__home {
+    margin: 40px 0;
+    display: grid;
+    justify-content: center;
+    gap: 40px;
+}
