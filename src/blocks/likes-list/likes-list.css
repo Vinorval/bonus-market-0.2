@@ -1,0 +1,4 @@
+.likes-list{
+    display: grid;
+    gap: 10px;
+}

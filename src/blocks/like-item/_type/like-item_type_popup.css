@@ -1,0 +1,5 @@
+@media screen and (max-width: 568px) {
+    .like-item_type_popup {
+        grid-template-columns: 100px 1fr;
+    }
+}
