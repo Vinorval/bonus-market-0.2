@@ -19,7 +19,7 @@ const PromotionsPage = () => {
                 <ul className="margin_none padding_none news-list">
                     {promoArr.map((el) => (
                         <li key={el.id} className="margin_none list-style_none news-card">
-                            <img src={el.img} alt={el.name} />
+                            <img className="news-card__img" src={el.img} alt={el.name} />
                             <div className="news-card__info">
                                 <p className="margin_none">{el.name}</p>
                                 <span>{el.date}</span>

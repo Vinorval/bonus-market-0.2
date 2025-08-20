@@ -15,7 +15,7 @@ const PromoPage = () => {
             <h2 className="page__title margin_none">{item.name}</h2>
             <Nav navArr={navPagesCompanyArr} />
             <section className="info-block news-card">
-                <img src={item.img} alt={item.name} />
+                <img className="news-card__img" src={item.img} alt={item.name} />
                 <div className="news-card__info">
                     <span>{item.date}</span>
                     <p className="margin_none">{item.description}</p>

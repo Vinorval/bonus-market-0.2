@@ -53,6 +53,7 @@
 @import url(./blocks/news-card/news-card.css);
 @import url(./blocks/news-card/__button/news-card__button.css);
 @import url(./blocks/news-card/__info/news-card__info.css);
+@import url(./blocks/news-card/__img/news-card__img.css);
 
 @import url(./blocks/brend-card/brend-card.css);
 

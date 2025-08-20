@@ -1,5 +1,12 @@
 .news-card {
     display: grid;
     gap: 24px;
-    grid-template-columns: 300px calc(100% - 24px - 300px);
+    grid-template-columns: 200px calc(100% - 24px - 200px);
+}
+
+@media screen and (max-width: 900px) {
+    .news-card {
+        gap: 0px;
+        grid-template-columns: 1fr;
+    }
 }
