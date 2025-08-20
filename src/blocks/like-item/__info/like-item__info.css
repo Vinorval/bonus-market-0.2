@@ -1,0 +1,4 @@
+.like-item__info {
+    display: grid;
+    gap: 10px;
+}

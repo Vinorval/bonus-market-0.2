@@ -75,6 +75,11 @@
 
 @import url(./blocks/category-list/category-list.css);
 
+@import url(./blocks/like-item/like-item.css);
+@import url(./blocks/like-item/__button/like-item__button.css);
+@import url(./blocks/like-item/__img/like-item__img.css);
+@import url(./blocks/like-item/__info/like-item__info.css);
+
 @import url(./blocks/products/products.css);
 @import url(./blocks/products/__displayed/products__displayed.css);
 @import url(./blocks/products/__list/products__list.css);

@@ -1,0 +1,8 @@
+.like-item {
+    display: grid;
+    border-bottom: solid;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 100px 1fr 50px;
+}

@@ -29,6 +29,7 @@ import ForgotPasswordPage from '../../pages/auth/ForgotPasswordPage';
 
 import ProfilePage from '../../pages/profile/ProfilePage';
 import HistoryOrdersPage from '../../pages/profile/HistoryOrdersPage';
+import FavouritesPage from '../../pages/profile/FavouritesPage';
 
 import CategoryPage from '../../pages/catalog/CategoryPage';
 import CatalogPage from '../../pages/catalog/Catalog.page';
@@ -66,6 +67,7 @@ function App() {
 
         <Route path='/profile' element={<ProfilePage />} />
         <Route path='/orders' element={<HistoryOrdersPage />} />
+        <Route path='/favourites' element={<FavouritesPage />} />
 
         <Route path='/category' element={<CategoryPage />} />
         <Route path='/category/:catalog' element={<CatalogPage />} />
