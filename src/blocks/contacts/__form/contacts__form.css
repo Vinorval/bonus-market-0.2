@@ -6,3 +6,11 @@
     row-gap: 20px;
     column-gap: 40px;
 }
+
+@media screen and (max-width: 800px) {
+    .contacts__from {
+        height: 95%;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+}
