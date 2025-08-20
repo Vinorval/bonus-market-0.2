@@ -11,7 +11,7 @@ const Modal = ({ show, closePopup, children, type }) => {
 
     return (
         <section className={ show ? `popup popup_show_active popup_type_${type}` : `popup popup_type_${type}`} onClick={e => (e.currentTarget === e.target) && closePopup()} >
-            <div className='popup__wrap' >
+            <div className={`popup__wrap popup__wrap_type_${type}`} >
                 <button className='popup__button-close' onClick={closePopup} >
                     <img src={Close} className='popup__ikon-close' alt='Иконка закрытия попапа'/>
                 </button>

@@ -1,0 +1,9 @@
+.popup__wrap_type_likes {
+    width: 60vw;
+}
+
+@media screen and (max-width: 1100px) {
+    .popup__wrap_type_likes {
+        width: 90vw;
+    }
+}

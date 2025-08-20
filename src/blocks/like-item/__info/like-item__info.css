@@ -2,4 +2,12 @@
     display: grid;
     gap: 10px;
     text-align: start;
+    grid-template-columns: 110px calc(100% - 110px - 10px);
+}
+
+@media screen and (max-width: 600px) {
+    .like-item__info {
+        grid-row: 2;
+        grid-column: 1 / 3;
+    }
 }
