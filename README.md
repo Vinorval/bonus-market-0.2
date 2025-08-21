@@ -27,24 +27,24 @@
     />
 </Modal>
 
-<Modal show={showModal} closePopup={onClick} type='promo'>
+<Modal show={showModal} closePopup={onClick} type='likes'>
                     <h3 className="margin_none">Избранное</h3>
                     <ul className="margin_none padding_none likes-list">
                     <li className="margin_none list-style_none like-item">
                         <img className="like-item__img" src={product} alt="product" />
                         <div className="like-item__info">
-                            <h3 className="margin_none">Драже "Сладкие часики" в блочке 30шт 1/600 (13 гр) БЛОК</h3>
+                            <h3 className="like-item__title margin_none">Драже "Сладкие часики" в блочке 30шт 1/600 (13 гр) БЛОК</h3>
                             <p className="margin_none">Цена за штуку<br />15.20 руб.</p>
-                            <button className="button button_color_yellow button_width_narrow margin_none padding_none">В корзину</button>
+                            <button className="button like-item__basket button_color_yellow button_width_narrow margin_none padding_none">В корзину</button>
                         </div>
                          <button className="button background_none like-item__button" ><img src={close} alt="button-close" /></button>
                     </li>
                     <li className="margin_none list-style_none like-item">
                         <img className="like-item__img" src={product} alt="product" />
                         <div className="like-item__info">
-                            <h3 className="margin_none">Драже "Сладкие часики" в блочке 30шт 1/600 (13 гр) БЛОК</h3>
+                            <h3 className="like-item__title margin_none">Драже "Сладкие часики" в блочке 30шт 1/600 (13 гр) БЛОК</h3>
                             <p className="margin_none">Цена за штуку<br />15.20 руб.</p>
-                            <button className="button button_color_yellow button_width_narrow margin_none padding_none">В корзину</button>
+                            <button className="button like-item__basket button_color_yellow button_width_narrow margin_none padding_none">В корзину</button>
                         </div>
                          <button className="button background_none like-item__button" ><img src={close} alt="button-close" /></button>
                     </li>
@@ -52,7 +52,7 @@
                 </Modal>
 
 
-                <Modal show={showModal} closePopup={onClick} type='promo'>
+                <Modal show={showModal} closePopup={onClick} type='order'>
                     <div className="order-popup">
                     <h3 className="margin_none">Выполнен</h3>
                     <div className="order-popup__date">
@@ -63,15 +63,15 @@
                     <ul className="margin_none padding_none likes-list">
                     <li className="margin_none list-style_none like-item like-item_type_popup">
                         <img className="like-item__img" src={product} alt="product" />
-                        <div className="like-item__info">
+                        <div className="like-item__info like-item__info_type_popup">
                             <h3 className="margin_none">Драже "Сладкие часики" в блочке 30шт 1/600 (13 гр) БЛОК</h3>
-                           <p className="margin_none">1 шт</p>
+                            <p className="margin_none">1 шт</p>
                         </div>
                         <h3 className="margin_none">15.20 руб.</h3>
                     </li>
-                    <li className="margin_none list-style_none like-item">
+                    <li className="margin_none list-style_none like-item like-item_type_popup">
                         <img className="like-item__img" src={product} alt="product" />
-                        <div className="like-item__info">
+                        <div className="like-item__info like-item__info_type_popup">
                             <h3 className="margin_none">Драже "Сладкие часики" в блочке 30шт 1/600 (13 гр) БЛОК</h3>
                             <p className="margin_none">1 шт</p>
                         </div>
