@@ -1,0 +1,9 @@
+.popup__wrap_type_order {
+    width: 60vw;
+}
+
+@media screen and (max-width: 1100px) {
+    .popup__wrap_type_order {
+        width: 90vw;
+    }
+}

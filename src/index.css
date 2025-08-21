@@ -87,6 +87,7 @@
 @import url(./blocks/like-item/__button/like-item__button.css);
 @import url(./blocks/like-item/__img/like-item__img.css);
 @import url(./blocks/like-item/__info/like-item__info.css);
+@import url(./blocks/like-item/__info/_type/like-item__info_type_popup.css);
 @import url(./blocks/like-item/_type/like-item_type_popup.css);
 @import url(./blocks/like-item/__title/like-item__title.css);
 
@@ -123,9 +124,11 @@
 @import url(./blocks/popup/_type/popup_type_success-pay.css);
 @import url(./blocks/popup/_type/popup_type_pay-one-click.css);
 @import url(./blocks/popup/_type/popup_type_likes.css);
+@import url(./blocks/popup/_type/popup_type_order.css);
 @import url(./blocks/popup/_show/popup_show_active.css);
 @import url(./blocks/popup/__wrap/popup__wrap.css);
 @import url(./blocks/popup/__wrap/_type/popup__wrap_type_likes.css);
+@import url(./blocks/popup/__wrap/_type/popup__wrap_type_order.css);
 @import url(./blocks/popup/__children/popup__children.css);
 @import url(./blocks/popup/__button-close/popup__button-close.css);
 
