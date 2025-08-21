@@ -1,0 +1,10 @@
+.margin_auto {
+    margin: auto;
+    width: 60%;
+}
+
+@media screen and (max-width: 786px) {
+    .margin_auto {
+        width: 95%;
+    }
+}

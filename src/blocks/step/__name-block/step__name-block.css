@@ -1,0 +1,4 @@
+.step__name-block {
+    display: flex;
+    justify-content: space-between;
+}

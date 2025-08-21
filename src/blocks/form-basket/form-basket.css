@@ -1,0 +1,11 @@
+.form-basket {
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 465px) {
+    .form-basket {
+        flex-direction: column;
+        gap: 5px;
+    }
+}

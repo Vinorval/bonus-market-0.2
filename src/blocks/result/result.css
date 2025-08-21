@@ -1,0 +1,12 @@
+.result {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+@media screen and (max-width: 465px) {
+    .result {
+        align-items: start;
+        flex-direction: column;
+    }
+}

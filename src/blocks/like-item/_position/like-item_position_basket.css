@@ -1,0 +1,9 @@
+.like-item_position_basket {
+    grid-template-columns: 100px 1fr 90px;
+}
+
+@media screen and (max-width: 465px) {
+    .like-item_position_basket {
+        grid-template-columns: 100px 1fr;
+    }
+}

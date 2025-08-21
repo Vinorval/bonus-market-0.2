@@ -107,6 +107,17 @@
 @import url(./blocks/news-section/news-section.css);
 @import url(./blocks/news-section/__list/news-section__list.css);
 
+@import url(./blocks/result/result.css);
+@import url(./blocks/form-basket/form-basket.css);
+@import url(./blocks/butons-basket/butons-basket.css);
+@import url(./blocks/like-item/_position/like-item_position_basket.css);
+
+@import url(./blocks/step/__name-block/step__name-block.css);
+@import url(./blocks/step/step.css);
+@import url(./blocks/step/__img/step__img.css);
+@import url(./blocks/page/__basket/page__basket.css);
+
+
 @import url(./blocks/adress-block/adress-block.css);
 @import url(./blocks/adress-block/__adresses/adress-block__adresses.css);
 @import url(./blocks/adress-block/__list/adress-block__list.css);
@@ -168,6 +179,9 @@
 @import url(./blocks/counter/__button/_type/counter__button_type_left.css);
 @import url(./blocks/counter/__button/_type/counter__button_type_riht.css);
 @import url(./blocks/counter/__num/counter__num.css);
+
+@import url(./blocks/margin/_auto/margin_auto.css);
+@import url(./blocks/justify-self/justify-self_center.css);
 
 body {
   max-width: 2080px;
