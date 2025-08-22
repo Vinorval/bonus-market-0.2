@@ -36,7 +36,9 @@ import CatalogPage from '../../pages/catalog/Catalog.page';
 
 import NotFoundPage from '../../pages/NotFoundPage';
 import HomePage from '../../pages/HomePage';
+
 import BasketPage from '../../pages/basket/BasketPage';
+import OrderFormPage from '../../pages/basket/OrderFormPage';
 
 function App() {
   return (
@@ -77,6 +79,7 @@ function App() {
         <Route path='/' element={<HomePage />} />
 
         <Route path='/basket' element={<BasketPage />} />
+        <Route path='/order-forma' element={<OrderFormPage />} />
 
         <Route path='*' element={<NotFoundPage />} />
       </Routes>
