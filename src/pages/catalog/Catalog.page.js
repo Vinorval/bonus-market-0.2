@@ -18,6 +18,7 @@ const CatalogPage = () => {
     const location = [ { link: "/", text: 'Главная ' }, { link: "/category", text: '/ Каталог ' }, { link: `/category/${category.to}`, text: `/ ${category.name} ` } ];
     const [startCard, setSartCard] = React.useState(8);
     const ProductCards = products.slice(0, startCard);
+    const [isType, setType] = React.useState("list");
 
     function hideButton() {
         if ((products.length === ProductCards.length)) {
@@ -49,9 +50,9 @@ const CatalogPage = () => {
                     <button className="button margin_none padding_none background_none"><img src={tableMenu} alt="кнопка отображенния товаров в виде таблицы" /></button>
                     <button className="button margin_none padding_none background_none"><img src={listMenu} alt="кнопка отображенния товаров в виде списка" /></button>
                 </div>
-                <ul className="products__list">
+                <ul className={`products__list ${isType === "list" && "products__list_type_list"}`}>
                     {ProductCards.map((el) => (
-                        <Product key={el._id} item={el} />
+                        <Product key={el._id} item={el} type={isType} />
                     ))}
                 </ul>
                 { !hideButton() && <button onClick={handleMore} className="button__more" >

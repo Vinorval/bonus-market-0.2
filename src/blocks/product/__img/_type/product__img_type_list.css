@@ -1,0 +1,19 @@
+.product__img_type_list {
+    border: none;
+    grid-row: 1 / 3;
+    padding: 0;
+    justify-self: center;
+}
+
+@media screen and (max-width: 900px) {
+    .product__img_type_list {
+        max-width: 120px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .product__img_type_list {
+        grid-row: 1;
+        grid-column: 1 / 3;
+    }
+}

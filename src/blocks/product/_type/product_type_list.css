@@ -1,0 +1,23 @@
+.product_type_list {
+    max-width: 100%;
+    width: 100%;
+    border-bottom: solid 2px;
+    display: grid;
+    grid-template-columns: 180px 70px calc(100% - 180px - 70px - 40px);
+    padding-bottom: 5px;
+    gap: 14px;
+    align-items: center;
+    justify-items: start;
+}
+
+@media screen and (max-width: 900px) {
+    .product_type_list {
+        grid-template-columns: 120px 70px calc(100% - 120px - 70px - 40px);
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .product_type_list {
+        grid-template-columns: 70px calc(100% - 70px - 20px);
+    }
+}

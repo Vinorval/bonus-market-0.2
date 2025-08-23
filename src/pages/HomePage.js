@@ -78,7 +78,6 @@ const HomePage = () => {
             </section>
             <Advantages />
             <BrendsComponent />
-            <ProductPopup />
         </main>
     );
 };

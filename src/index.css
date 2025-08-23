@@ -94,13 +94,19 @@
 @import url(./blocks/products/products.css);
 @import url(./blocks/products/__displayed/products__displayed.css);
 @import url(./blocks/products/__list/products__list.css);
+@import url(./blocks/products/__list/_type/products__list_type_list.css);
 
 @import url(./blocks/product/product.css);
+@import url(./blocks/product/_type/product_type_list.css);
 @import url(./blocks/product/__img/product__img.css);
+@import url(./blocks/product/__img/_type/product__img_type_list.css);
 @import url(./blocks/product/__info/product__info.css);
+@import url(./blocks/product/__info/_type/product__info_type_list.css);
 @import url(./blocks/product/__popup/product__popup.css);
 @import url(./blocks/product/__buttons/product__buttons.css);
+@import url(./blocks/product/__buttons/_type/product__buttons_type_list.css);
 @import url(./blocks/product/basket-block/product__basket-block.css);
+@import url(./blocks/product/__func/product__func.css);
 
 @import url(./blocks/element-home-page/__info/element-home-page__info.css);
 
@@ -198,6 +204,7 @@
 
 @import url(./blocks/margin/_auto/margin_auto.css);
 @import url(./blocks/justify-self/justify-self_center.css);
+@import url(./blocks/border/border_none.css);
 
 body {
   max-width: 2080px;
