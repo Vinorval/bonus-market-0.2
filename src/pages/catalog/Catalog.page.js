@@ -47,8 +47,12 @@ const CatalogPage = () => {
             </ul>
             <section className="products">
                 <div className="products__displayed">
-                    <button className="button margin_none padding_none background_none"><img src={tableMenu} alt="кнопка отображенния товаров в виде таблицы" /></button>
-                    <button className="button margin_none padding_none background_none"><img src={listMenu} alt="кнопка отображенния товаров в виде списка" /></button>
+                    <button className="button margin_none padding_none background_none" onClick={() => setType("card")}>
+                        <img src={tableMenu} alt="кнопка отображенния товаров в виде таблицы" />
+                    </button>
+                    <button className="button margin_none padding_none background_none" onClick={() => setType("list")}>
+                        <img src={listMenu} alt="кнопка отображенния товаров в виде списка" />
+                    </button>
                 </div>
                 <ul className={`products__list ${isType === "list" && "products__list_type_list"}`}>
                     {ProductCards.map((el) => (
