@@ -1,0 +1,9 @@
+.popup_type_product {
+    left: 21vw;
+}
+
+@media screen and (max-width: 1024px) {
+    .popup_type_product {
+        left: 4vw;
+    }
+}

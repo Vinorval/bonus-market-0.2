@@ -1,0 +1,9 @@
+.popup__wrap_type_product {
+    width: 60vw;
+}
+
+@media screen and (max-width: 1024px) {
+    .popup__wrap_type_product{
+        width: 90vw;
+    }
+}

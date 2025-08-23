@@ -1,0 +1,4 @@
+.popup-product__buttons {
+    display: flex;
+    gap: 14px;
+}

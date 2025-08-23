@@ -126,6 +126,12 @@
 @import url(./blocks/order-list/order-list.css);
 @import url(./blocks/order/order.css);
 
+@import url(./blocks/popup-product/popup-product.css);
+@import url(./blocks/popup-product/__likes/popup-product__likes.css);
+@import url(./blocks/popup-product/__info/popup-product__info.css);
+@import url(./blocks/popup-product/__buttons/popup-product__buttons.css);
+@import url(./blocks/popup-product/__count/popup-product__count.css);
+
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__title/footer__title.css);
 
@@ -141,10 +147,14 @@
 @import url(./blocks/popup/_type/popup_type_pay-one-click.css);
 @import url(./blocks/popup/_type/popup_type_likes.css);
 @import url(./blocks/popup/_type/popup_type_order.css);
+@import url(./blocks/popup/_type/popup_type_product.css);
+
 @import url(./blocks/popup/_show/popup_show_active.css);
 @import url(./blocks/popup/__wrap/popup__wrap.css);
 @import url(./blocks/popup/__wrap/_type/popup__wrap_type_likes.css);
 @import url(./blocks/popup/__wrap/_type/popup__wrap_type_order.css);
+@import url(./blocks/popup/__wrap/_type/popoup__wrap_product.css);
+
 @import url(./blocks/popup/__children/popup__children.css);
 @import url(./blocks/popup/__button-close/popup__button-close.css);
 

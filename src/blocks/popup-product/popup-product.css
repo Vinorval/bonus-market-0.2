@@ -1,0 +1,13 @@
+.popup-product {
+    display: flex;
+    gap: 8px;
+}
+
+@media screen and (max-width: 568px) {
+    .popup-product {
+        display: grid;
+        width: 97%;
+        grid-template-columns: 200px 1fr;
+        justify-items: start;
+    }
+}

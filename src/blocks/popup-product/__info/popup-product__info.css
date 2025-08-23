@@ -1,0 +1,12 @@
+.popup-product__info {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 568px) {
+    .popup-product__info {
+        grid-column: 1 / 3;
+    }
+}
