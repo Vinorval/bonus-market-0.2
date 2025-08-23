@@ -9,6 +9,7 @@ import { promoArr, newsArr } from '../utils/promoAndNews';
 import products from '../utils/products';
 import Product from '../components/product/Product';
 import moreButton from '../images/more.svg';
+import BrendsComponent from '../components/brendsComponent/BrendsComponent';
 
 const HomePage = () => {
     const [startCard, setSartCard] = React.useState(3);
@@ -75,6 +76,7 @@ const HomePage = () => {
                 </button> }
             </section>
             <Advantages />
+            <BrendsComponent />
         </main>
     
     );

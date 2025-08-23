@@ -1,0 +1,7 @@
+.brends-list {
+    display: flex;
+    width: 60%;
+    overflow: auto;
+    gap: 20px;
+    align-items: center;
+}

@@ -148,6 +148,9 @@
 @import url(./blocks/popup/__children/popup__children.css);
 @import url(./blocks/popup/__button-close/popup__button-close.css);
 
+@import url(./blocks/brends-list/brends-list.css);
+@import url(./blocks/brends-section/brends-section.css);
+
 @import url(./blocks/mailing-form/mailing-form.css);
 @import url(./blocks/mailing-form/__input/mailing-form__input.css);
 @import url(./blocks/mailing-form/__button/mailing-form__button.css);

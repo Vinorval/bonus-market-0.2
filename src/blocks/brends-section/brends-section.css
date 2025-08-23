@@ -1,0 +1,8 @@
+.brends-section {
+    padding: 20px 0 20px 0;
+    margin: auto;
+    display: grid;
+    justify-items: center;
+    row-gap: 40px;
+    width: 100%;
+}
