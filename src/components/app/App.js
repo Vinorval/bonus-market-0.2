@@ -39,6 +39,7 @@ import HomePage from '../../pages/HomePage';
 
 import BasketPage from '../../pages/basket/BasketPage';
 import OrderFormPage from '../../pages/basket/OrderFormPage';
+import PayOrderPage from '../../pages/basket/PayOrderPage';
 
 function App() {
   return (
@@ -80,6 +81,7 @@ function App() {
 
         <Route path='/basket' element={<BasketPage />} />
         <Route path='/order-forma' element={<OrderFormPage />} />
+        <Route path='/pay-order' element={<PayOrderPage />} />
 
         <Route path='*' element={<NotFoundPage />} />
       </Routes>

@@ -1,0 +1,6 @@
+.pay-block-button {
+    display: grid;
+    gap: 14px;
+    width: 300px;
+    margin: auto;
+}
