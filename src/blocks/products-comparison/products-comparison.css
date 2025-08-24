@@ -1,0 +1,5 @@
+.products-comparison {
+    display: grid;
+    gap: 40px;
+    overflow: auto;
+}

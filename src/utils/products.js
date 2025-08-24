@@ -7,6 +7,7 @@ const products = [
         name: 'Молоко Арта 2,5%День 1 л 1/12 (6мес)',
         img: milkDay,
         category: ['milk', 'milk'],
+        categoryRUS: ['Молочная продукция', 'молоко'],
         price: '64.20',
         characteristic: { 'ОБЪЕМ': '1 л', '%': '2.5%', 'СРОК ГОДНОСТИ': '6 мес', 'КОПМАНИЯ': 'Арта' }
     },
@@ -15,6 +16,7 @@ const products = [
         name: 'Молоко ультрапаст. "Тяжин" 2.5% тетра пак1л 1/12 (9мес)',
         img: milkTyagen,
         category: ['milk', 'milk'],
+        categoryRUS: ['Молочная продукция', 'молоко'],
         price: '64.10',
         characteristic: { 'ОБЪЕМ': '1 л', '%': '2.5%', 'СРОК ГОДНОСТИ': '9 мес', 'КОПМАНИЯ': 'Тяжин' }
     },
@@ -22,7 +24,8 @@ const products = [
         _id: '003',
         name: 'Молоко Арта 2,5%День 1 л 1/12 (6мес)',
         img: milkDay,
-        category: ['milk', 'milk'],
+        category: ['milk', 'bred'],
+        categoryRUS: ['Молочная продукция', 'хлеб'],
         price: '64.20',
         characteristic: { 'ОБЪЕМ': '1 л', '%': '2.5%', 'СРОК ГОДНОСТИ': '6 мес', 'КОПМАНИЯ': 'Арта' }
     },
@@ -30,7 +33,8 @@ const products = [
         _id: '004',
         name: 'Молоко ультрапаст. "Тяжин" 2.5% тетра пак1л 1/12 (9мес)',
         img: milkTyagen,
-        category: ['milk', 'milk'],
+        category: ['milk', 'bred'],
+        categoryRUS: ['Молочная продукция', 'хлеб'],
         price: '64.10',
         characteristic: { 'ОБЪЕМ': '1 л', '%': '2.5%', 'СРОК ГОДНОСТИ': '9 мес', 'КОПМАНИЯ': 'Тяжин' }
     },
@@ -38,7 +42,8 @@ const products = [
         _id: '005',
         name: 'Молоко Арта 2,5%День 1 л 1/12 (6мес)',
         img: milkDay,
-        category: ['milk', 'milk'],
+        category: ['milk', 'ice-creame'],
+        categoryRUS: ['Молочная продукция', 'мороженное'],
         price: '64.20',
         characteristic: { 'ОБЪЕМ': '1 л', '%': '2.5%', 'СРОК ГОДНОСТИ': '6 мес', 'КОПМАНИЯ': 'Арта' }
     },
@@ -46,7 +51,8 @@ const products = [
         _id: '006',
         name: 'Молоко ультрапаст. "Тяжин" 2.5% тетра пак1л 1/12 (9мес)',
         img: milkTyagen,
-        category: ['milk', 'milk'],
+        category: ['milk', 'ice-creame'],
+        categoryRUS: ['Молочная продукция', 'мороженное'],
         price: '64.10',
         characteristic: { 'ОБЪЕМ': '1 л', '%': '2.5%', 'СРОК ГОДНОСТИ': '9 мес', 'КОПМАНИЯ': 'Тяжин' }
     },
@@ -55,6 +61,7 @@ const products = [
         name: 'Молоко Арта 2,5%День 1 л 1/12 (6мес)',
         img: milkDay,
         category: ['milk', 'milk'],
+        categoryRUS: ['Молочная продукция', 'молоко'],
         price: '64.20',
         characteristic: { 'ОБЪЕМ': '1 л', '%': '2.5%', 'СРОК ГОДНОСТИ': '6 мес', 'КОПМАНИЯ': 'Арта' }
     },
@@ -63,6 +70,7 @@ const products = [
         name: 'Молоко ультрапаст. "Тяжин" 2.5% тетра пак1л 1/12 (9мес)',
         img: milkTyagen,
         category: ['milk', 'milk'],
+        categoryRUS: ['Молочная продукция', 'молоко'],
         price: '64.10',
         characteristic: { 'ОБЪЕМ': '1 л', '%': '2.5%', 'СРОК ГОДНОСТИ': '9 мес', 'КОПМАНИЯ': 'Тяжин' }
     },

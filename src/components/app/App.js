@@ -41,6 +41,8 @@ import BasketPage from '../../pages/basket/BasketPage';
 import OrderFormPage from '../../pages/basket/OrderFormPage';
 import PayOrderPage from '../../pages/basket/PayOrderPage';
 
+import ComparisonPage from '../../pages/ComparisonPage';
+
 function App() {
   return (
     <div className="App">
@@ -82,6 +84,8 @@ function App() {
         <Route path='/basket' element={<BasketPage />} />
         <Route path='/order-forma' element={<OrderFormPage />} />
         <Route path='/pay-order' element={<PayOrderPage />} />
+
+        <Route path='/comparison' element={<ComparisonPage />} />
 
         <Route path='*' element={<NotFoundPage />} />
       </Routes>

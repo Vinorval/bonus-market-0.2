@@ -138,6 +138,16 @@
 @import url(./blocks/popup-product/__buttons/popup-product__buttons.css);
 @import url(./blocks/popup-product/__count/popup-product__count.css);
 
+@import url(./blocks/page/__comparison/page__comparison.css);
+@import url(./blocks/categorie-comparison/categorie-comparison.css);
+@import url(./blocks/products-comparison/products-comparison.css);
+@import url(./blocks/products-comparison/__info/products-comparison__info.css);
+@import url(./blocks/products-comparison/__product/products-comparison__product.css);
+@import url(./blocks/products-comparison/__img/products-comparison__img.css);
+@import url(./blocks/characteristic/characteristic.css);
+@import url(./blocks/characteristic-list/characteristic-list.css);
+@import url(./blocks/characteristic/__item/characteristic__item.css);
+
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__title/footer__title.css);
 

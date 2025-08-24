@@ -1,0 +1,20 @@
+.products-comparison__info {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 40px;
+    padding-bottom: 14px;
+    border-bottom: solid rgba(000, 000, 000, 0.4);
+}
+
+@media screen and (max-width: 1024px) {
+    .products-comparison__info {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .products-comparison__info {
+        gap: 10px;
+    }
+}

@@ -1,0 +1,19 @@
+.products-comparison__product {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: 20px;
+    width: 280px;
+}
+
+@media screen and (max-width: 1024px) {
+    .products-comparison__product {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .products-comparison__product {
+        width: 200px;
+    }
+}

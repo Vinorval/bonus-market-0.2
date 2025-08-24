@@ -1,0 +1,16 @@
+.characteristic__item {
+    width: 280px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .characteristic__item {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .characteristic__item {
+        width: 200px;
+    }
+}

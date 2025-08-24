@@ -52,7 +52,7 @@
                 </Modal>
 
 
-                <Modal show={showModal} closePopup={onClick} type='order'>
+<Modal show={showModal} closePopup={onClick} type='order'>
                     <div className="order-popup">
                     <h3 className="margin_none">Выполнен</h3>
                     <div className="order-popup__date">

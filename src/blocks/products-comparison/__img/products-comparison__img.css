@@ -1,0 +1,8 @@
+.products-comparison__img {
+    width: 180px;
+    border: solid rgba(21, 158, 187, 0.4) 3px;
+    border-radius: 12px;
+    padding: 5px;
+    max-height: 180px;
+    object-fit: contain;
+}
