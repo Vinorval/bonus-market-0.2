@@ -1,9 +1,6 @@
 import React from 'react';
 import { Routes, Route, NavLink } from 'react-router';
 
-import Modal from '../modal/Modal';
-import catalogArr from '../../utils/catalog';
-
 import Navigation from "../navigation/Navigation";
 import Header from "../header/Header";
 import Footer from '../footer/Footer';
@@ -48,8 +45,6 @@ import PayOrderPage from '../../pages/basket/PayOrderPage';
 import ComparisonPage from '../../pages/ComparisonPage';
 
 function App() {
-  const [ showModal, setShowModal ] = React.useState(true);
-  const onClick = () => setShowModal(!showModal);
 
   return (
     <div className="App">
@@ -97,10 +92,6 @@ function App() {
         <Route path='*' element={<NotFoundPage />} />
       </Routes>
       <Footer />
-      <Modal show={showModal} closePopup={onClick} type='catalog'>
-        <h3 className="margin_none popup-catalog__title">Категории</h3>
-        <ul className="margin_none list-style_none popup-catalog__list">{catalogArr.map((el, index) => <li key={index}><NavLink to={`category/${el.to}`} className="margin_none text-decoration">{el.name}</NavLink></li>)}</ul>
-      </Modal>
     </div>
   );
 }

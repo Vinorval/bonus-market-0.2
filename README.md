@@ -4,14 +4,7 @@
     <button className="button margin_none padding_none button_color_yellow button_width_narrow" >Применить</button>
 </Modal>
 
-<Modal show={showModal} closePopup={onClick} type='call-back'>
-    <AuthForm 
-        title='Заказать звонок'
-        inputArr={[{ name: 'name', type: 'text', placeholder: 'Ваше имя' }, { name: 'phone', type: 'phone', placeholder: 'Номер телефона' }]}
-        button='Отправить' 
-        linksArr={[]} 
-    />
-</Modal>
+
 
 <Modal show={showModal} closePopup={onClick} type='success-pay'>
     <h3 className="margin_none">Заказ сделан!</h3>
@@ -26,30 +19,6 @@
         linksArr={[]} 
     />
 </Modal>
-
-<Modal show={showModal} closePopup={onClick} type='likes'>
-                    <h3 className="margin_none">Избранное</h3>
-                    <ul className="margin_none padding_none likes-list">
-                    <li className="margin_none list-style_none like-item">
-                        <img className="like-item__img" src={product} alt="product" />
-                        <div className="like-item__info">
-                            <h3 className="like-item__title margin_none">Драже "Сладкие часики" в блочке 30шт 1/600 (13 гр) БЛОК</h3>
-                            <p className="margin_none">Цена за штуку<br />15.20 руб.</p>
-                            <button className="button like-item__basket button_color_yellow button_width_narrow margin_none padding_none">В корзину</button>
-                        </div>
-                         <button className="button background_none like-item__button" ><img src={close} alt="button-close" /></button>
-                    </li>
-                    <li className="margin_none list-style_none like-item">
-                        <img className="like-item__img" src={product} alt="product" />
-                        <div className="like-item__info">
-                            <h3 className="like-item__title margin_none">Драже "Сладкие часики" в блочке 30шт 1/600 (13 гр) БЛОК</h3>
-                            <p className="margin_none">Цена за штуку<br />15.20 руб.</p>
-                            <button className="button like-item__basket button_color_yellow button_width_narrow margin_none padding_none">В корзину</button>
-                        </div>
-                         <button className="button background_none like-item__button" ><img src={close} alt="button-close" /></button>
-                    </li>
-                </ul>
-                </Modal>
 
 
 <Modal show={showModal} closePopup={onClick} type='order'>
