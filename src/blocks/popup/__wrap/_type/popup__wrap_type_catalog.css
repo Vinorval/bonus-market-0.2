@@ -1,0 +1,10 @@
+.popup__wrap_type_catalog {
+    width: 35vw;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 800px) {
+    .popup__wrap_type_catalog{
+        width: 90vw;
+    }
+}
