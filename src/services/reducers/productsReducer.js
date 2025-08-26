@@ -26,10 +26,10 @@ export const productsReducer = (state = initialState, action) => {
         return { ...state, };
       }
       case ADD_PRODUCT_SUCCESS: {
-        return { ...state, order: [...state.oreder, action.item] }
+        return { ...state, order: [...state.order, action.item] }
       }
       case DELETE_PRODUCT_SUCCESS: {
-        return { ...state, order: state.order.filter((item) => item.name !== action.name) }
+        return { ...state, order: state.order.filter((item) => item._id !== action.id) }
       }
       case POST_ORDER_SUCCESS: {
         return { ...state, orders: [...state.orders, action.order] };

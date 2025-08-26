@@ -5,7 +5,6 @@
 </Modal>
 
 
-
 <Modal show={showModal} closePopup={onClick} type='success-pay'>
     <h3 className="margin_none">Заказ сделан!</h3>
     <p className="margin_none">Наш оператор вскоре свяжется с вами для уточнения времени доставки</p>

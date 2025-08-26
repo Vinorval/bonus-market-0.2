@@ -1,8 +1,15 @@
 import basket from "../../images/page-icons/cart.svg";
 import like from "../../images/page-icons/like.svg";
 import chart from "../../images/page-icons/chart.svg";
+import { useDispatch, useSelector } from 'react-redux';
+import { addProductSuccess } from '../../services/actions/products';
 
 const Product = ({item, type}) => {
+    const dispatch = useDispatch();
+    const pushOrder = () => {
+        dispatch(addProductSuccess({...item, count: 1}));
+        console.log({...item, count: 1})
+    }
 
     return ( type === 'list' ? 
         <li className="product product_type_list">
@@ -22,7 +29,7 @@ const Product = ({item, type}) => {
                     <p className="margin_none counter__num">1</p>
                     <button className="button counter__button counter__button_type_riht button_color_yellow margin_none padding_none">-</button>
                 </div>
-                <button className="button button_color_yellow button_width_wide margin_none padding_none">В корзину</button>
+                <button onClick={() => pushOrder()} className="button button_color_yellow button_width_wide margin_none padding_none">В корзину</button>
             </div>
         </li> : 
         <li className="product product_type_cart">
@@ -43,7 +50,7 @@ const Product = ({item, type}) => {
                         <p className="margin_none counter__num">1</p>
                         <button className="button counter__button counter__button_type_riht button_color_yellow margin_none padding_none">-</button>
                     </div>
-                    <button className="button button__basket button_color_yellow margin_none padding_none"><img alt="button basket" src={basket}/></button>
+                    <button onClick={() => pushOrder()} className="button button__basket button_color_yellow margin_none padding_none"><img alt="button basket" src={basket}/></button>
                 </div>
             </div>
         </li> 

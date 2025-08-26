@@ -27,10 +27,10 @@ export const addProductSuccess = (item) => {
   }
 }
 
-export const deleteProductSuccess = (name) => {
+export const deleteProductSuccess = (id) => {
   return {
     type: DELETE_PRODUCT_SUCCESS,
-    name: name,
+    id: id,
   }
 }
 
