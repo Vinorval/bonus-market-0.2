@@ -12,7 +12,7 @@ const AuthForm = ({ title, inputArr, button, linksArr, error }) => {
                     </label>
                 ))}
             </div>
-            <button type="submit" className="button button_color_yellow button_width_narrow margin_none padding_none">{button}</button>
+            <button type="submit" className="button button_color_yellow button_width_very-wide margin_none padding_none">{button}</button>
             <div className="form-auth__links-block">
                 {linksArr.map((el, index) => (
                     <p key={index} className="margin_none form-auth__text">{el.text}<NavLink className="form-auth__link" to={el.path}>{el.link}</NavLink></p>

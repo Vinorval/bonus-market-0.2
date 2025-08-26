@@ -47,8 +47,8 @@ const ProfilePage = () => {
                         ))}
                     </div>
                     <div className="form-profile__buttons-block">
-                        <button type="submit" className="button button_color_yellow button_width_narrow margin_none padding_none">Сохранить</button>
-                        <button type="reset" className="button button_width_narrow margin_none padding_none">Отменить изменения</button>
+                        <button type="submit" className="button button_color_yellow button_width_wide margin_none padding_none">Сохранить</button>
+                        <button type="reset" className="button button_width_very-wide margin_none padding_none">Отменить изменения</button>
                     </div>
                 </form>
                 <div className="adress-block" >
@@ -64,7 +64,7 @@ const ProfilePage = () => {
                             </li>
                         </ul>
                     </div>
-                    <button type="submit" className="button button_color_yellow button_width_narrow margin_none padding_none">Добавить новый адрес</button>
+                    <button type="submit" className="button button_color_yellow button_width_very-wide margin_none padding_none">Добавить новый адрес</button>
                 </div>
                 <h3 className="info-block__title margin_none info-block__title_width_full"> </h3>
             </section>

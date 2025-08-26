@@ -23,7 +23,7 @@ const HistoryOrdersPage = () => {
                             <p className="margin_none">02.10.2022. в 13:44</p>
                             <p className="margin_none">6 товаров на сумму: 4 473 ₽</p>
                         </div>
-                        <button className="button button_color_yellow button_width_narrow margin_none padding_none" >Выполнено <img src={buttonOrder} alt="кнопка посмотреть заказ" /></button>
+                        <button className="button button_color_yellow button_width_very-wide margin_none padding_none" >Выполнено <img src={buttonOrder} alt="кнопка посмотреть заказ" /></button>
                     </li>
                 </ul>
             </section>

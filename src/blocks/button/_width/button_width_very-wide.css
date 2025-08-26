@@ -1,0 +1,9 @@
+.button_width_very-wide {
+    width: 200px;
+}
+
+@media screen and (max-width: 1280px) {
+    .button_width_very-wide {
+        width: 180px;
+    }
+}

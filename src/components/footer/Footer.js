@@ -36,7 +36,7 @@ const Footer = () => {
             <form className="mailing-form">
                 <h4 className="mailing-form__title footer__title margin_none">Подписаться на рассылку</h4>
                 <input type="email" placeholder="Ваша электронная почта" className="mailing-form__input margin_none" />
-                <button className="mailing-form__button button_color_yellow button_width_narrow margin_none padding_none" >Подписаться</button>
+                <button className="mailing-form__button button_color_yellow button_width_wide margin_none padding_none" >Подписаться</button>
             </form>
         </footer>
 )};

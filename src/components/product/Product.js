@@ -22,7 +22,7 @@ const Product = ({item, type}) => {
                     <p className="margin_none counter__num">1</p>
                     <button className="button counter__button counter__button_type_riht button_color_yellow margin_none padding_none">-</button>
                 </div>
-                <button className="button button_color_yellow button_width_narrow margin_none padding_none">В корзину</button>
+                <button className="button button_color_yellow button_width_wide margin_none padding_none">В корзину</button>
             </div>
         </li> : 
         <li className="product product_type_cart">
@@ -36,7 +36,7 @@ const Product = ({item, type}) => {
                     <button className="button background_none margin_none padding_none"><img src={chart} alt="button-chart" /></button>
                     <button className="button background_none margin_none padding_none"><img src={like} alt="button-like" /></button>
                 </div>
-                <button className="button button_color_yellow button_width_narrow margin_none padding_none" >Быстрый просмотр</button>
+                <button className="button button_color_yellow button_width_very-wide margin_none padding_none" >Быстрый просмотр</button>
                 <div className="product__basket-block" >
                     <div className="counter">
                         <button className="button counter__button counter__button_type_left button_color_yellow margin_none padding_none">+</button>

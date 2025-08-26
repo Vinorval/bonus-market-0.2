@@ -36,15 +36,15 @@ const BasketPage = () => {
                 </ul>
                 <label className="form-basket margin_auto">
                     <input type="text" name="promo" className="form-auth__input" />
-                    <button className="button button_color_yellow button_width_narrow margin_none padding_none">Применить</button>
+                    <button className="button button_color_yellow button_width_wide margin_none padding_none">Применить</button>
                 </label>
                 <div className="result margin_auto">
                     <div >
                         <h2 className="margin_none">Итого: 465.80 руб.</h2>
                         <p className="margin_none">Без учета стоимости доставки</p>
                     </div>
-                    <button className="button button_color_yellow button_width_narrow margin_none padding_none">Купить в один клик</button>
-                    <button className="button button_color_yellow button_width_narrow margin_none padding_none">Оформить заказ</button>
+                    <button className="button button_color_yellow button_width_very-wide margin_none padding_none">Купить в один клик</button>
+                    <button className="button button_color_yellow button_width_very-wide margin_none padding_none">Оформить заказ</button>
                 </div>
            
         </main>
