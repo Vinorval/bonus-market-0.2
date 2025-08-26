@@ -1,6 +1,6 @@
 import { NavLink } from "react-router";
 
-const AuthForm = ({ title, inputArr, button, linksArr, error }) => {
+const AuthForm = ({ title, inputArr, button, linksArr, error, link }) => {
     return (
         <form className="form-auth" >
             <h2 className="form-auth__title margin_none">{title}</h2>
@@ -12,7 +12,7 @@ const AuthForm = ({ title, inputArr, button, linksArr, error }) => {
                     </label>
                 ))}
             </div>
-            <button type="submit" className="button button_color_yellow button_width_very-wide margin_none padding_none">{button}</button>
+            <NavLink to={link} className='text-decoration_none'><button className="button button_color_yellow button_width_very-wide margin_none padding_none">{button}</button></NavLink>
             <div className="form-auth__links-block">
                 {linksArr.map((el, index) => (
                     <p key={index} className="margin_none form-auth__text">{el.text}<NavLink className="form-auth__link" to={el.path}>{el.link}</NavLink></p>

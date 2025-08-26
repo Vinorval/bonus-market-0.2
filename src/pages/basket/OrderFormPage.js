@@ -33,6 +33,7 @@ const OrderFormPage = () => {
                     inputArr={formObject.inputArr} 
                     button={formObject.button} 
                     linksArr={formObject.linksArr} 
+                    link='/pay-order'
                 />
             </div>
             
