@@ -4,13 +4,14 @@ import product from "../../images/products/milk/milk-day.jpg";
 import close from "../../images/close.svg";
 import like from "../../images/page-icons/like.svg";
 import { useDispatch, useSelector } from 'react-redux';
-import { deleteProductSuccess } from "../../services/actions/products";
+import { deleteProductSuccess, addMoreCount, reduceCount } from "../../services/actions/products";
 import { NavLink } from "react-router";
 
 const BasketPage = () => {
     const dispatch = useDispatch();
     const order = useSelector( store => store.product.order );
     const [isResult, setResult] = React.useState(0);
+    const [count, setCount] = React.useState(1);
 
     const returnSumm = () => {
         let sum = 0;
@@ -23,6 +24,16 @@ const BasketPage = () => {
     const deleteProduct = (product) => { //удаление товара по названию
         dispatch(deleteProductSuccess(product._id));
         console.log(order);
+    };
+
+    const addMoreCounts = (product, num) => { //увеличеваем или уменьшаем количество товара в хранилище редусера для верного отображения итогов
+        if ( num < 0 ) {
+            setCount(count-1);
+            dispatch(reduceCount(count, product._id)); 
+        } else {
+            setCount(count+1);
+            dispatch(addMoreCount(count, product._id));
+        }
     };
 
     React.useEffect(() => {
@@ -38,9 +49,9 @@ const BasketPage = () => {
                         <h3 className="like-item__title margin_none">{item.name}</h3>
                         <p className="margin_none">Цена за штуку<br />{item.price} руб.</p>
                         <div className="counter">
-                            <button className="button counter__button counter__button_type_left button_color_yellow margin_none padding_none">+</button>
+                            <button onClick={ () => addMoreCounts(+1) } className="button counter__button counter__button_type_left button_color_yellow margin_none padding_none">+</button>
                             <p className="margin_none counter__num">{item.count}</p>
-                            <button className="button counter__button counter__button_type_riht button_color_yellow margin_none padding_none">-</button>
+                            <button onClick={ () => addMoreCounts(-1) } className="button counter__button counter__button_type_riht button_color_yellow margin_none padding_none">-</button>
                         </div>
                     </div>
                     <div className="butons-basket" >

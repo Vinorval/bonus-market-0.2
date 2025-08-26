@@ -38,10 +38,10 @@ export const productsReducer = (state = initialState, action) => {
         return { ...state, orders: [action.orders] };
       }
       case ADD_MORE_COUNT: {
-        return { ...state, order: state.order.map(el => (el.name === action.name ? { ...el, count: action.count + 1} : el)) }
+        return { ...state, order: state.order.map(el => (el._id === action.id ? { ...el, count: action.count + 1} : el)) }
       }
       case REDUCE_COUNT: {
-        return { ...state, order: state.order.map(el => (el.name === action.name ? { ...el, count: action.count - 1} : el)) }
+        return { ...state, order: state.order.map(el => (el._id === action.id ? { ...el, count: action.count - 1} : el)) }
       }
       case ADD_PRODUCT_COPPARISON: {
         return { ...state, copparison: state.copparison.map(el => (el.category === action.item.category ? { ...el, items: [...state.copparison.items, action.item]} : el)) }

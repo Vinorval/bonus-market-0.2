@@ -48,19 +48,19 @@ export const postOrderSuccess = (order) => {
     };
 };
 
-export const addMoreCount = (count, name) => {
+export const addMoreCount = (count, id) => {
   return {
     type: ADD_MORE_COUNT,
     count,
-    name
+    id
   }
 };
 
-export const reduceCount = (count, name) => {
+export const reduceCount = (count, id) => {
   return {
     type: REDUCE_COUNT,
     count,
-    name
+    id
   }
 };
 
